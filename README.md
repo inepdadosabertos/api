@@ -2,8 +2,8 @@
 ## **SITE DADOS ABERTOS INEP**
 
 ### Objetivos do projeto
-⋅⋅* Mostrar que é possível disponibilizar dados do INEP seguindo as recomendações da Cartilha de Dados Abertos (http://dados.gov.br/cartilha-publicacao-dados-abertos/)
-⋅⋅* Disponibilizar os dados mais brutos e permitir que seja feito o acesso simplificado, com considerações semânticas da URL e com identificadores únicos e persistentes
+* Mostrar que é possível disponibilizar dados do INEP seguindo as recomendações da Cartilha de Dados Abertos (http://dados.gov.br/cartilha-publicacao-dados-abertos/)
+* Disponibilizar os dados mais brutos e permitir que seja feito o acesso simplificado, com considerações semânticas da URL e com identificadores únicos e persistentes
 
 ### URLs de chamadas da API
 retorna escolas com um determinado filtro (não exclusivo) [micro-dado]
