@@ -5,6 +5,11 @@
 * Mostrar que é possível disponibilizar dados do INEP seguindo as recomendações da Cartilha de Dados Abertos (http://dados.gov.br/cartilha-publicacao-dados-abertos/)
 * Disponibilizar os dados mais brutos e permitir que seja feito o acesso simplificado, com considerações semânticas da URL e com identificadores únicos e persistentes
 
+### Domínio da API
+
+* utilize o endereço http://api.dadosabertosinep.org/v1 como raiz de todas as chamadas dessa API
+
+
 ### URLs de chamadas da API
 
 * retorna escolas com um determinado filtro (não exclusivo) [micro-dado]
