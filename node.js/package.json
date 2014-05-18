@@ -5,6 +5,7 @@
     "private": true,
     "dependencies": {
         "express": "3.x",
-        "mongodb": "1.x"
+        "mongodb": "1.x",
+        "riak-js": "0.x"
     }
 }

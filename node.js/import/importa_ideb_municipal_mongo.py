@@ -11,8 +11,7 @@ HOST_MONGO = "localhost"
 PORT_MONGO = 27017
 DATA_BASE_NAME = "ideb"
 
-
-import riak
+from pymongo import *
 import pymongo
 import time
 import uuid
@@ -58,21 +57,11 @@ def create_new_rede(codigo_rede):
 	}
 
 
-
-
-
-client = riak.RiakClient(host=HOST, http_port=PORT)
-
-
-municipio_bucket = client.bucket(BUCKET_NAME)
 mongoClient = MongoClient(HOST_MONGO, PORT_MONGO)
 mongoDB = mongoClient[DATA_BASE_NAME]
 
 # We're creating the user data & keying off their username.
 # Note that the user hasn't been stored in Riak yet.
-
-
-print client.get_buckets()
 
 
 dados = {}
@@ -85,7 +74,7 @@ dados_array = []
 i=0
 
 
-with open("D:/Data/INEP/IDEB/divulgacao-anos-iniciais-escolas-2011.xls", "rb") as csvfile:
+with open("divulgacao-anos-iniciais-municipios-2011.csv", "rb") as csvfile:
 	spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
 	headers = spamreader.next()
 	for row in spamreader:
@@ -193,7 +182,7 @@ with open("D:/Data/INEP/IDEB/divulgacao-anos-iniciais-escolas-2011.xls", "rb") a
 
 print "**** DADOS FINAIS ***"
 
-with open("D:/Data/INEP/IDEB/divulgacao-anos-finais-municipios-2011.csv", "rb") as csvfile:
+with open("divulgacao-anos-finais-municipios-2011.csv", "rb") as csvfile:
 	spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
 	headers = spamreader.next()
 	for row in spamreader:
@@ -299,8 +288,12 @@ with open("D:/Data/INEP/IDEB/divulgacao-anos-finais-municipios-2011.csv", "rb") 
 
 print "salvando no MongoDB..."
 
-municipiosDB = mongoDB.municipio;
-municipiosDB.insert(dados)
+for codigo_municipio in dados:
+	#print "> %s" % codigo_municipio
+	item = dados[codigo_municipio]
+
+	municipiosDB = mongoDB.municipio
+	print "> %s" % municipiosDB.insert(item)
 
 
 print "acabou!"
