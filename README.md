@@ -46,7 +46,7 @@
   * /ideb/uf/[uf].{json|csv}
   
    Paramêtros
-    *rede=[municipal|estadual|federal|publica]
+    * rede=[municipal|estadual|federal|publica]
   
    Exemplo
     * /ideb/uf/MG.json
