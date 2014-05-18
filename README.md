@@ -39,7 +39,7 @@
    * /ideb/escola/[código_escola].{json}
   
      * Exemplo
-      * http://api.dadosabertosinep.org/v1/ideb/uf/[uf].{json|cvs}  
+      * http://api.dadosabertosinep.org/v1/ideb/escola/43101895.json
 
 **(FUTURO) retorna resumo agrupado de uma UF específica**
    * /ideb/uf/[uf].{json}
