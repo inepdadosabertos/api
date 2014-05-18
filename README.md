@@ -15,12 +15,12 @@
 **Retorna escolas com um determinado filtro (não exclusivo) [micro-dado]**
   * /ideb/escolas.{json|csv}
    
-   *Paramêtros
+   * Paramêtros
     * uf=[sigla]
     * &codigo_municipio=[cod_municipio]
     * rede=[municipal|estadual|federal|publica]
    
-   *Exemplo
+   * Exemplo
     * /ideb/escolas.json?uf=SP 
     * /ideb/escolas.json?uf=SP&rede=estadual
     * ideb/escolas.json?codigo_municipio=1100254
@@ -29,33 +29,33 @@
 **Retorna resumo dos dados de um determinado filtro (não exclusivo)**
     * /ideb.{json|csv}
   
-   *Paramêtros
+   * Paramêtros
     * ?uf=[sigla]
     * rede=[municipal|estadual|federal|publica]
   
-   *Exemplo
+   * Exemplo
     * /ideb.json?uf=MG&rede=estadual
 
 **Retorna uma escola específica**
   * /ideb/escola/[código_escola].{json|csv}
   
-   *Exemplo
+   * Exemplo
     * /ideb/uf/[uf].{json|cvs}  
 
 **(FUTURO) retorna resumo agrupado de uma UF específica**
   * /ideb/uf/[uf].{json|csv}
   
-   *Paramêtros
+   * Paramêtros
     * rede=[municipal|estadual|federal|publica]
   
-   *Exemplo
+   * Exemplo
     * /ideb/uf/MG.json
     * /ideb/uf/MG.json?rede=municipal
 
 **(FUTURO) retorna resultado agrupado de um município específico**
   * /ideb/municipio/[código_municipio].{json|csv}
      
-   *Exemplo
+   * Exemplo
     * /ideb/municipio/1100254.json
 
 ### Roadmap do projeto
