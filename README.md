@@ -13,22 +13,22 @@
 ### URLs de chamadas da API
 
 **Retorna escolas com um determinado filtro (não exclusivo) [micro-dado]**
-   * /ideb/escolas.{json|csv}
+   * /ideb/escolas.{json}
    
-     * Paramêtros
+     * Paramêtros (pelo menos um parâmetro deve ser informado)
       * uf=[sigla]
       * codigo_municipio=[cod_municipio]
       * rede=[municipal|estadual|federal|publica]
    
      * Exemplos
-      * http://api.dadosabertosinep.org/v1/ideb/escolas.json?uf=SP 
-      * http://api.dadosabertosinep.org/v1/ideb/escolas.json?uf=SP&rede=estadual
+      * http://api.dadosabertosinep.org/v1/ideb/escolas.json?uf=RR 
+      * http://api.dadosabertosinep.org/v1/ideb/escolas.json?uf=RR&rede=estadual
       * http://api.dadosabertosinep.org/v1/ideb/escolas.json?codigo_municipio=1100254
       * http://api.dadosabertosinep.org/v1/ideb/escolas.json?codigo_municipio=1100254&rede=municipal
 
 **Retorna resumo dos dados de um determinado filtro (não exclusivo)**
-   * /ideb.{json|csv}
-  
+   * /ideb.{json}
+ 
      * Paramêtros
       * uf=[sigla]
   
@@ -36,13 +36,13 @@
       * http://api.dadosabertosinep.org/v1/ideb.json?uf=MG&rede=estadual
 
 **Retorna uma escola específica**
-   * /ideb/escola/[código_escola].{json|csv}
+   * /ideb/escola/[código_escola].{json}
   
      * Exemplo
       * http://api.dadosabertosinep.org/v1/ideb/uf/[uf].{json|cvs}  
 
 **(FUTURO) retorna resumo agrupado de uma UF específica**
-   * /ideb/uf/[uf].{json|csv}
+   * /ideb/uf/[uf].{json}
   
      * Paramêtros
       * rede=[municipal|estadual|federal|publica]
@@ -52,7 +52,7 @@
       * http://api.dadosabertosinep.org/v1/ideb/uf/MG.json?rede=municipal
 
 **(FUTURO) retorna resultado agrupado de um município específico**
-  * /ideb/municipio/[código_municipio].{json|csv}
+  * /ideb/municipio/[código_municipio].{json}
      
      * Exemplo
       * http://api.dadosabertosinep.org/v1/ideb/municipio/1100254.json
