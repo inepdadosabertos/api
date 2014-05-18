@@ -1,5 +1,5 @@
 
-## **SITE DADOS ABERTOS INEP**
+## **PROJETO DADOS ABERTOS DO INEP**
 
 ### Objetivos do projeto
 * Mostrar que é possível disponibilizar dados do INEP seguindo as recomendações da Cartilha de Dados Abertos (http://dados.gov.br/cartilha-publicacao-dados-abertos/)
@@ -31,7 +31,6 @@
   
      * Paramêtros
       * uf=[sigla]
-      * rede=[municipal|estadual|federal|publica]
   
      * Exemplo
       * /ideb.json?uf=MG&rede=estadual
