@@ -30,7 +30,7 @@
    * /ideb.{json}
  
      * Paramêtros
-      * uf=[sigla]
+      * uf=[sigla] (obrigatório)
   
      * Exemplo
       * http://api.dadosabertosinep.org/v1/ideb.json?uf=MG&rede=estadual
