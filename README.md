@@ -33,7 +33,7 @@
       * uf=[sigla] obrigatório
   
      * Exemplo
-      * http://api.dadosabertosinep.org/v1/ideb.json?uf=MG&rede=estadual
+      * http://api.dadosabertosinep.org/v1/ideb.json?uf=ES
 
 **Retorna uma escola específica**
    * /ideb/escola/[código_escola].{json}
