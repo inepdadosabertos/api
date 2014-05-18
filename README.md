@@ -13,50 +13,50 @@
 ### URLs de chamadas da API
 
 **Retorna escolas com um determinado filtro (não exclusivo) [micro-dado]**
-  * /ideb/escolas.{json|csv}
+   * /ideb/escolas.{json|csv}
    
-   * Paramêtros
-    * uf=[sigla]
-    * &codigo_municipio=[cod_municipio]
-    * rede=[municipal|estadual|federal|publica]
+     * Paramêtros
+      * uf=[sigla]
+      * &codigo_municipio=[cod_municipio]
+      * rede=[municipal|estadual|federal|publica]
    
-   * Exemplo
-    * /ideb/escolas.json?uf=SP 
-    * /ideb/escolas.json?uf=SP&rede=estadual
-    * ideb/escolas.json?codigo_municipio=1100254
-    * ideb/escolas.json?codigo_municipio=1100254&rede=municipal
+     * Exemplo
+      * /ideb/escolas.json?uf=SP 
+      * /ideb/escolas.json?uf=SP&rede=estadual
+      * ideb/escolas.json?codigo_municipio=1100254
+      * ideb/escolas.json?codigo_municipio=1100254&rede=municipal
 
 **Retorna resumo dos dados de um determinado filtro (não exclusivo)**
-    * /ideb.{json|csv}
+   * /ideb.{json|csv}
   
-   * Paramêtros
-    * ?uf=[sigla]
-    * rede=[municipal|estadual|federal|publica]
+     * Paramêtros
+      * ?uf=[sigla]
+      * rede=[municipal|estadual|federal|publica]
   
-   * Exemplo
-    * /ideb.json?uf=MG&rede=estadual
+     * Exemplo
+      * /ideb.json?uf=MG&rede=estadual
 
 **Retorna uma escola específica**
-  * /ideb/escola/[código_escola].{json|csv}
+   * /ideb/escola/[código_escola].{json|csv}
   
-   * Exemplo
-    * /ideb/uf/[uf].{json|cvs}  
+     * Exemplo
+      * /ideb/uf/[uf].{json|cvs}  
 
 **(FUTURO) retorna resumo agrupado de uma UF específica**
-  * /ideb/uf/[uf].{json|csv}
+   * /ideb/uf/[uf].{json|csv}
   
-   * Paramêtros
-    * rede=[municipal|estadual|federal|publica]
+     * Paramêtros
+      * rede=[municipal|estadual|federal|publica]
   
-   * Exemplo
-    * /ideb/uf/MG.json
-    * /ideb/uf/MG.json?rede=municipal
+     * Exemplo
+      * /ideb/uf/MG.json
+      * /ideb/uf/MG.json?rede=municipal
 
 **(FUTURO) retorna resultado agrupado de um município específico**
   * /ideb/municipio/[código_municipio].{json|csv}
      
-   * Exemplo
-    * /ideb/municipio/1100254.json
+     * Exemplo
+      * /ideb/municipio/1100254.json
 
 ### Roadmap do projeto
 
