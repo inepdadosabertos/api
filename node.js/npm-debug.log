@@ -1,0 +1,1997 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'riak-js' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'riak-js', null ]
+7 verbose cache add name=undefined spec="riak-js" args=["riak-js",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'riak-js',
+8 verbose parsed url   path: 'riak-js',
+8 verbose parsed url   href: 'riak-js' }
+9 silly lockFile 5b55292e-riak-js riak-js
+10 verbose lock riak-js C:\Users\GustavoRPS\AppData\Roaming\npm-cache\5b55292e-riak-js.lock
+11 silly lockFile 5b55292e-riak-js riak-js
+12 silly lockFile 5b55292e-riak-js riak-js
+13 verbose addNamed [ 'riak-js', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 11c5af41-riak-js riak-js@
+16 verbose lock riak-js@ C:\Users\GustavoRPS\AppData\Roaming\npm-cache\11c5af41-riak-js.lock
+17 silly addNameRange { name: 'riak-js', range: '*', hasData: false }
+18 verbose url raw riak-js
+19 verbose url resolving [ 'https://registry.npmjs.org/', './riak-js' ]
+20 verbose url resolved https://registry.npmjs.org/riak-js
+21 info trying registry request attempt 1 at 01:21:57
+22 http GET https://registry.npmjs.org/riak-js
+23 http 200 https://registry.npmjs.org/riak-js
+24 silly registry.get cb [ 200,
+24 silly registry.get   { date: 'Sun, 18 May 2014 04:21:58 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+24 silly registry.get     etag: '"7KXNI5W06SCME00CQRF6LWL4D"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'cache-control': 'max-age=1',
+24 silly registry.get     'content-length': '103508',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-jfk1030-JFK',
+24 silly registry.get     'x-cache': 'MISS, MISS',
+24 silly registry.get     'x-cache-hits': '0, 0',
+24 silly registry.get     'x-timer': 'S1400386918.447771549,VS0,VS4,VE419,VE423',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly addNameRange number 2 { name: 'riak-js', range: '*', hasData: true }
+26 silly addNameRange versions [ 'riak-js',
+26 silly addNameRange   [ '0.2.1',
+26 silly addNameRange     '0.3.6',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.4.1',
+26 silly addNameRange     '0.9.0',
+26 silly addNameRange     '0.9.1',
+26 silly addNameRange     '0.9.2',
+26 silly addNameRange     '0.9.3',
+26 silly addNameRange     '0.10.0',
+26 silly addNameRange     '0.10.1',
+26 silly addNameRange     '0.10.2',
+26 silly addNameRange     '0.2.2-f',
+26 silly addNameRange     '0.3.0-beta',
+26 silly addNameRange     '0.3.0-beta2',
+26 silly addNameRange     '0.3.0-beta3',
+26 silly addNameRange     '0.3.0-beta4',
+26 silly addNameRange     '0.3.0-beta5',
+26 silly addNameRange     '0.3.0-beta6',
+26 silly addNameRange     '0.4.0-beta',
+26 silly addNameRange     '0.4.0-rc1',
+26 silly addNameRange     '0.4.0-rc2',
+26 silly addNameRange     '0.4.0-rc3',
+26 silly addNameRange     '0.9.0-rc1',
+26 silly addNameRange     '0.9.4-pre3',
+26 silly addNameRange     '0.10.0-rc1',
+26 silly addNameRange     '0.10.0-rc2' ] ]
+27 verbose addNamed [ 'riak-js', '0.10.2' ]
+28 verbose addNamed [ '0.10.2', '0.10.2' ]
+29 silly lockFile f923acfc-riak-js-0-10-2 riak-js@0.10.2
+30 verbose lock riak-js@0.10.2 C:\Users\GustavoRPS\AppData\Roaming\npm-cache\f923acfc-riak-js-0-10-2.lock
+31 silly lockFile 6e889b0f-s-org-riak-js-riak-js-0-10-2-tgz https://registry.npmjs.org/riak-js/-/riak-js-0.10.2.tgz
+32 verbose lock https://registry.npmjs.org/riak-js/-/riak-js-0.10.2.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\6e889b0f-s-org-riak-js-riak-js-0-10-2-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/riak-js/-/riak-js-0.10.2.tgz',
+33 verbose addRemoteTarball   '9c74cbc331738b0993a1beaa64cf550d331e4195' ]
+34 info retry fetch attempt 1 at 01:22:00
+35 verbose fetch to= C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\tmp.tgz
+36 http GET https://registry.npmjs.org/riak-js/-/riak-js-0.10.2.tgz
+37 http 200 https://registry.npmjs.org/riak-js/-/riak-js-0.10.2.tgz
+38 verbose tar unpack C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\tmp.tgz
+39 silly lockFile 4764c216-20262-0-7525429907254875-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\package
+40 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\4764c216-20262-0-7525429907254875-package.lock
+41 silly lockFile 5ba1b703-20262-0-7525429907254875-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\tmp.tgz
+42 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\tmp.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\5ba1b703-20262-0-7525429907254875-tmp-tgz.lock
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry package.json
+45 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm modified mode [ '.npmignore', 511, 493 ]
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+50 silly gunzTarPerm extractEntry .travis.yml
+51 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+52 silly gunzTarPerm extractEntry examples/logger.js
+53 silly gunzTarPerm modified mode [ 'examples/logger.js', 438, 420 ]
+54 silly gunzTarPerm extractEntry examples/metrics.js
+55 silly gunzTarPerm modified mode [ 'examples/metrics.js', 438, 420 ]
+56 silly gunzTarPerm extractEntry lib/client.js
+57 silly gunzTarPerm modified mode [ 'lib/client.js', 438, 420 ]
+58 silly gunzTarPerm extractEntry lib/http-search-client.js
+59 silly gunzTarPerm modified mode [ 'lib/http-search-client.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry lib/http-search-meta.js
+61 silly gunzTarPerm modified mode [ 'lib/http-search-meta.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry lib/index.js
+63 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+64 silly gunzTarPerm extractEntry lib/http-request.js
+65 silly gunzTarPerm modified mode [ 'lib/http-request.js', 438, 420 ]
+66 silly gunzTarPerm extractEntry lib/meta.js
+67 silly gunzTarPerm modified mode [ 'lib/meta.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry lib/protocol-buffers-client.js
+69 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-client.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry lib/protocol-buffers-mapreduce-client.js
+71 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-mapreduce-client.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry lib/protocol-buffers-mapreduce-meta.js
+73 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-mapreduce-meta.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry lib/protocol-buffers-meta.js
+75 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-meta.js', 438, 420 ]
+76 silly gunzTarPerm extractEntry lib/http-meta.js
+77 silly gunzTarPerm modified mode [ 'lib/http-meta.js', 438, 420 ]
+78 silly gunzTarPerm extractEntry lib/protocol-buffers-search-client.js
+79 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-search-client.js', 438, 420 ]
+80 silly gunzTarPerm extractEntry lib/http-mapreduce-client.js
+81 silly gunzTarPerm modified mode [ 'lib/http-mapreduce-client.js', 438, 420 ]
+82 silly gunzTarPerm extractEntry lib/protocol-buffers-search-meta.js
+83 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-search-meta.js', 438, 420 ]
+84 silly gunzTarPerm extractEntry lib/http-client.js
+85 silly gunzTarPerm modified mode [ 'lib/http-client.js', 438, 420 ]
+86 silly gunzTarPerm extractEntry lib/utils.js
+87 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+88 silly gunzTarPerm extractEntry lib/mapper.js
+89 silly gunzTarPerm modified mode [ 'lib/mapper.js', 438, 420 ]
+90 silly gunzTarPerm extractEntry Makefile
+91 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+92 silly gunzTarPerm extractEntry spec/riak.proto
+93 silly gunzTarPerm modified mode [ 'spec/riak.proto', 438, 420 ]
+94 silly gunzTarPerm extractEntry spec/riak_kv.proto
+95 silly gunzTarPerm modified mode [ 'spec/riak_kv.proto', 438, 420 ]
+96 silly gunzTarPerm extractEntry test/utils-test.js
+97 silly gunzTarPerm modified mode [ 'test/utils-test.js', 438, 420 ]
+98 silly gunzTarPerm extractEntry test/http-client-siblings-test.js
+99 silly gunzTarPerm modified mode [ 'test/http-client-siblings-test.js', 438, 420 ]
+100 silly gunzTarPerm extractEntry test/http-client-test.js
+101 silly gunzTarPerm modified mode [ 'test/http-client-test.js', 438, 420 ]
+102 silly gunzTarPerm extractEntry test/http-connection-test.js
+103 silly gunzTarPerm modified mode [ 'test/http-connection-test.js', 438, 420 ]
+104 silly gunzTarPerm extractEntry test/http-mapreduce-client-test.js
+105 silly gunzTarPerm modified mode [ 'test/http-mapreduce-client-test.js', 438, 420 ]
+106 silly gunzTarPerm extractEntry test/http-client-search-test.js
+107 silly gunzTarPerm modified mode [ 'test/http-client-search-test.js', 438, 420 ]
+108 silly gunzTarPerm extractEntry test/mapper-test.js
+109 silly gunzTarPerm modified mode [ 'test/mapper-test.js', 438, 420 ]
+110 silly gunzTarPerm extractEntry test/meta-test.js
+111 silly gunzTarPerm modified mode [ 'test/meta-test.js', 438, 420 ]
+112 silly gunzTarPerm extractEntry test/protocol-buffers-client-test.js
+113 silly gunzTarPerm modified mode [ 'test/protocol-buffers-client-test.js', 438, 420 ]
+114 silly gunzTarPerm extractEntry test/protocol-buffers-mapreduce-meta-test.js
+115 silly gunzTarPerm modified mode [ 'test/protocol-buffers-mapreduce-meta-test.js', 438, 420 ]
+116 silly gunzTarPerm extractEntry test/protocol-buffers-mapreduce-test.js
+117 silly gunzTarPerm modified mode [ 'test/protocol-buffers-mapreduce-test.js', 438, 420 ]
+118 silly gunzTarPerm extractEntry test/http-client-pool-test.js
+119 silly gunzTarPerm modified mode [ 'test/http-client-pool-test.js', 438, 420 ]
+120 silly gunzTarPerm extractEntry test/protocol-buffers-meta-test.js
+121 silly gunzTarPerm modified mode [ 'test/protocol-buffers-meta-test.js', 438, 420 ]
+122 silly gunzTarPerm extractEntry test/http-client-luwak-test.js
+123 silly gunzTarPerm modified mode [ 'test/http-client-luwak-test.js', 438, 420 ]
+124 silly gunzTarPerm extractEntry test/protocol-buffers-search-test.js
+125 silly gunzTarPerm modified mode [ 'test/protocol-buffers-search-test.js', 438, 420 ]
+126 silly gunzTarPerm extractEntry test/http-client-instrumentation-test.js
+127 silly gunzTarPerm modified mode [ 'test/http-client-instrumentation-test.js', 438, 420 ]
+128 silly gunzTarPerm extractEntry test/http-meta-test.js
+129 silly gunzTarPerm modified mode [ 'test/http-meta-test.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry test/server/http_test.coffee
+131 silly gunzTarPerm modified mode [ 'test/server/http_test.coffee', 438, 420 ]
+132 silly gunzTarPerm extractEntry test/server/test_server.coffee
+133 silly gunzTarPerm modified mode [ 'test/server/test_server.coffee', 438, 420 ]
+134 silly gunzTarPerm extractEntry test/server/test_server_test.coffee
+135 silly gunzTarPerm modified mode [ 'test/server/test_server_test.coffee', 438, 420 ]
+136 silly gunzTarPerm extractEntry test/fixtures/big_multipart
+137 silly gunzTarPerm modified mode [ 'test/fixtures/big_multipart', 438, 420 ]
+138 silly gunzTarPerm extractEntry test/fixtures/cat.jpg
+139 silly gunzTarPerm modified mode [ 'test/fixtures/cat.jpg', 438, 420 ]
+140 silly gunzTarPerm extractEntry test/fixtures/multipart
+141 silly gunzTarPerm modified mode [ 'test/fixtures/multipart', 438, 420 ]
+142 silly lockFile 4764c216-20262-0-7525429907254875-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\package
+143 silly lockFile 4764c216-20262-0-7525429907254875-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\package
+144 silly lockFile 5ba1b703-20262-0-7525429907254875-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\tmp.tgz
+145 silly lockFile 5ba1b703-20262-0-7525429907254875-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\tmp.tgz
+146 verbose tar pack [ 'C:\\Users\\GustavoRPS\\AppData\\Roaming\\npm-cache\\riak-js\\0.10.2\\package.tgz',
+146 verbose tar pack   'C:\\Users\\GUSTAV~1\\AppData\\Local\\Temp\\npm-5776-KTuV3gF5\\1400386920262-0.7525429907254875\\package' ]
+147 verbose tarball C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+148 verbose folder C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\package
+149 silly lockFile 4764c216-20262-0-7525429907254875-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\package
+150 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\4764c216-20262-0-7525429907254875-package.lock
+151 silly lockFile 1fe5298d-cache-riak-js-0-10-2-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+152 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\1fe5298d-cache-riak-js-0-10-2-package-tgz.lock
+153 silly lockFile 4764c216-20262-0-7525429907254875-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\package
+154 silly lockFile 4764c216-20262-0-7525429907254875-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386920262-0.7525429907254875\package
+155 silly lockFile 1fe5298d-cache-riak-js-0-10-2-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+156 silly lockFile 1fe5298d-cache-riak-js-0-10-2-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+157 silly lockFile 85a37e20-npm-cache-riak-js-0-10-2-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package
+158 verbose lock C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\85a37e20-npm-cache-riak-js-0-10-2-package.lock
+159 silly lockFile 85a37e20-npm-cache-riak-js-0-10-2-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package
+160 silly lockFile 85a37e20-npm-cache-riak-js-0-10-2-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package
+161 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+162 silly lockFile a624d2fb-npm-cache-riak-js-0-10-2-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package
+163 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\a624d2fb-npm-cache-riak-js-0-10-2-package.lock
+164 silly lockFile 1fe5298d-cache-riak-js-0-10-2-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+165 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\1fe5298d-cache-riak-js-0-10-2-package-tgz.lock
+166 silly gunzTarPerm modes [ '755', '644' ]
+167 silly gunzTarPerm extractEntry package.json
+168 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+169 silly gunzTarPerm extractEntry .npmignore
+170 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+171 silly gunzTarPerm extractEntry README.md
+172 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+173 silly gunzTarPerm extractEntry .travis.yml
+174 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+175 silly gunzTarPerm extractEntry Makefile
+176 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+177 silly gunzTarPerm extractEntry examples/logger.js
+178 silly gunzTarPerm modified mode [ 'examples/logger.js', 438, 420 ]
+179 silly gunzTarPerm extractEntry examples/metrics.js
+180 silly gunzTarPerm modified mode [ 'examples/metrics.js', 438, 420 ]
+181 silly gunzTarPerm extractEntry lib/client.js
+182 silly gunzTarPerm modified mode [ 'lib/client.js', 438, 420 ]
+183 silly gunzTarPerm extractEntry lib/http-search-client.js
+184 silly gunzTarPerm modified mode [ 'lib/http-search-client.js', 438, 420 ]
+185 silly gunzTarPerm extractEntry lib/http-search-meta.js
+186 silly gunzTarPerm modified mode [ 'lib/http-search-meta.js', 438, 420 ]
+187 silly gunzTarPerm extractEntry lib/index.js
+188 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+189 silly gunzTarPerm extractEntry lib/http-request.js
+190 silly gunzTarPerm modified mode [ 'lib/http-request.js', 438, 420 ]
+191 silly gunzTarPerm extractEntry lib/meta.js
+192 silly gunzTarPerm modified mode [ 'lib/meta.js', 438, 420 ]
+193 silly gunzTarPerm extractEntry lib/protocol-buffers-client.js
+194 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-client.js', 438, 420 ]
+195 silly gunzTarPerm extractEntry lib/protocol-buffers-mapreduce-client.js
+196 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-mapreduce-client.js', 438, 420 ]
+197 silly gunzTarPerm extractEntry lib/protocol-buffers-mapreduce-meta.js
+198 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-mapreduce-meta.js', 438, 420 ]
+199 silly gunzTarPerm extractEntry lib/protocol-buffers-meta.js
+200 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-meta.js', 438, 420 ]
+201 silly gunzTarPerm extractEntry lib/http-meta.js
+202 silly gunzTarPerm modified mode [ 'lib/http-meta.js', 438, 420 ]
+203 silly gunzTarPerm extractEntry lib/protocol-buffers-search-client.js
+204 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-search-client.js', 438, 420 ]
+205 silly gunzTarPerm extractEntry lib/http-mapreduce-client.js
+206 silly gunzTarPerm modified mode [ 'lib/http-mapreduce-client.js', 438, 420 ]
+207 silly gunzTarPerm extractEntry lib/protocol-buffers-search-meta.js
+208 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-search-meta.js', 438, 420 ]
+209 silly gunzTarPerm extractEntry lib/http-client.js
+210 silly gunzTarPerm modified mode [ 'lib/http-client.js', 438, 420 ]
+211 silly gunzTarPerm extractEntry lib/utils.js
+212 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+213 silly gunzTarPerm extractEntry lib/mapper.js
+214 silly gunzTarPerm modified mode [ 'lib/mapper.js', 438, 420 ]
+215 silly gunzTarPerm extractEntry spec/riak.proto
+216 silly gunzTarPerm modified mode [ 'spec/riak.proto', 438, 420 ]
+217 silly gunzTarPerm extractEntry spec/riak_kv.proto
+218 silly gunzTarPerm modified mode [ 'spec/riak_kv.proto', 438, 420 ]
+219 silly gunzTarPerm extractEntry test/utils-test.js
+220 silly gunzTarPerm modified mode [ 'test/utils-test.js', 438, 420 ]
+221 silly gunzTarPerm extractEntry test/http-client-siblings-test.js
+222 silly gunzTarPerm modified mode [ 'test/http-client-siblings-test.js', 438, 420 ]
+223 silly gunzTarPerm extractEntry test/http-client-test.js
+224 silly gunzTarPerm modified mode [ 'test/http-client-test.js', 438, 420 ]
+225 silly gunzTarPerm extractEntry test/http-connection-test.js
+226 silly gunzTarPerm modified mode [ 'test/http-connection-test.js', 438, 420 ]
+227 silly gunzTarPerm extractEntry test/http-mapreduce-client-test.js
+228 silly gunzTarPerm modified mode [ 'test/http-mapreduce-client-test.js', 438, 420 ]
+229 silly gunzTarPerm extractEntry test/http-client-search-test.js
+230 silly gunzTarPerm modified mode [ 'test/http-client-search-test.js', 438, 420 ]
+231 silly gunzTarPerm extractEntry test/mapper-test.js
+232 silly gunzTarPerm modified mode [ 'test/mapper-test.js', 438, 420 ]
+233 silly gunzTarPerm extractEntry test/meta-test.js
+234 silly gunzTarPerm modified mode [ 'test/meta-test.js', 438, 420 ]
+235 silly gunzTarPerm extractEntry test/protocol-buffers-client-test.js
+236 silly gunzTarPerm modified mode [ 'test/protocol-buffers-client-test.js', 438, 420 ]
+237 silly gunzTarPerm extractEntry test/protocol-buffers-mapreduce-meta-test.js
+238 silly gunzTarPerm modified mode [ 'test/protocol-buffers-mapreduce-meta-test.js', 438, 420 ]
+239 silly gunzTarPerm extractEntry test/protocol-buffers-mapreduce-test.js
+240 silly gunzTarPerm modified mode [ 'test/protocol-buffers-mapreduce-test.js', 438, 420 ]
+241 silly gunzTarPerm extractEntry test/http-client-pool-test.js
+242 silly gunzTarPerm modified mode [ 'test/http-client-pool-test.js', 438, 420 ]
+243 silly gunzTarPerm extractEntry test/protocol-buffers-meta-test.js
+244 silly gunzTarPerm modified mode [ 'test/protocol-buffers-meta-test.js', 438, 420 ]
+245 silly gunzTarPerm extractEntry test/http-client-luwak-test.js
+246 silly gunzTarPerm modified mode [ 'test/http-client-luwak-test.js', 438, 420 ]
+247 silly gunzTarPerm extractEntry test/protocol-buffers-search-test.js
+248 silly gunzTarPerm modified mode [ 'test/protocol-buffers-search-test.js', 438, 420 ]
+249 silly gunzTarPerm extractEntry test/http-client-instrumentation-test.js
+250 silly gunzTarPerm modified mode [ 'test/http-client-instrumentation-test.js', 438, 420 ]
+251 silly gunzTarPerm extractEntry test/http-meta-test.js
+252 silly gunzTarPerm modified mode [ 'test/http-meta-test.js', 438, 420 ]
+253 silly gunzTarPerm extractEntry test/server/http_test.coffee
+254 silly gunzTarPerm modified mode [ 'test/server/http_test.coffee', 438, 420 ]
+255 silly gunzTarPerm extractEntry test/server/test_server.coffee
+256 silly gunzTarPerm modified mode [ 'test/server/test_server.coffee', 438, 420 ]
+257 silly gunzTarPerm extractEntry test/server/test_server_test.coffee
+258 silly gunzTarPerm modified mode [ 'test/server/test_server_test.coffee', 438, 420 ]
+259 silly gunzTarPerm extractEntry test/fixtures/big_multipart
+260 silly gunzTarPerm modified mode [ 'test/fixtures/big_multipart', 438, 420 ]
+261 silly gunzTarPerm extractEntry test/fixtures/cat.jpg
+262 silly gunzTarPerm modified mode [ 'test/fixtures/cat.jpg', 438, 420 ]
+263 silly gunzTarPerm extractEntry test/fixtures/multipart
+264 silly gunzTarPerm modified mode [ 'test/fixtures/multipart', 438, 420 ]
+265 silly lockFile a624d2fb-npm-cache-riak-js-0-10-2-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package
+266 silly lockFile a624d2fb-npm-cache-riak-js-0-10-2-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package
+267 silly lockFile 1fe5298d-cache-riak-js-0-10-2-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+268 silly lockFile 1fe5298d-cache-riak-js-0-10-2-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+269 verbose chmod C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz 644
+270 silly chown skipping for windows C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+271 silly lockFile 6e889b0f-s-org-riak-js-riak-js-0-10-2-tgz https://registry.npmjs.org/riak-js/-/riak-js-0.10.2.tgz
+272 silly lockFile 6e889b0f-s-org-riak-js-riak-js-0-10-2-tgz https://registry.npmjs.org/riak-js/-/riak-js-0.10.2.tgz
+273 silly lockFile f923acfc-riak-js-0-10-2 riak-js@0.10.2
+274 silly lockFile f923acfc-riak-js-0-10-2 riak-js@0.10.2
+275 silly lockFile 11c5af41-riak-js riak-js@
+276 silly lockFile 11c5af41-riak-js riak-js@
+277 silly resolved [ { name: 'riak-js',
+277 silly resolved     version: '0.10.2',
+277 silly resolved     description: 'Node.js client for Riak',
+277 silly resolved     keywords: [ 'riak', 'nosql', 'database', 'http' ],
+277 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+277 silly resolved     bugs: { url: 'http://github.com/mostlyserious/riak-js/issues' },
+277 silly resolved     licenses: [ [Object] ],
+277 silly resolved     repositories: [ [Object] ],
+277 silly resolved     main: './lib/index',
+277 silly resolved     directories: { lib: './lib' },
+277 silly resolved     dependencies:
+277 silly resolved      { xml: '0.0.7',
+277 silly resolved        poolee: '~0.4.8',
+277 silly resolved        butils: '',
+277 silly resolved        'protobuf.js': '0.0.17',
+277 silly resolved        riakpbc: '0.0.12' },
+277 silly resolved     devDependencies: { seq: '0.3.5', mocha: '1.7.3', should: '*', async: '*' },
+277 silly resolved     engines: { node: '>=0.4.0' },
+277 silly resolved     readme: '# riak-js\n\n[Node.js](http://nodejs.org/) client for [Riak](http://basho.com/riak/).\n\n[![Build Status](https://secure.travis-ci.org/mostlyserious/riak-js.png?branch=master)](https://travis-ci.org/mostlyserious/riak-js)\n\n### Installation\n\n    npm install riak-js\n\n### Features and documentation\n\n[Documentation](http://riak-js.org/)\n\nFollow updates on Twitter: [@riakjs](http://twitter.com/riakjs)\n\n### Changelog\n\n#### 0.10.2\n\n  - Fix HTTP status codes intepreted as errors when using the connection pool\n    (github.com/chirag04 and github.com/domasx2)\n\n#### 0.10.1\n\n  - Support for HTTP connection pooling (github.com/andrewjstone)\n  - Fix unwanted errors in ping and save operation callbacks\n    (github.com/matehat)\n\n#### 0.10.0\n\n - Preliminary support for Protocol Buffers via a single connection.\n - Fetch siblings by default, restoring previous riak-js behavior\n - Populate meta.links when saving an object based on the response\'s HTTP\n   headers (github.com/accelerated)\n - Fix content length override. Allows handing in streaming data from e.g.\n   connect.js. (github.com/englercj)\n - Only set the language attribute on map and reduce phases. Avoid setting it on\n   phases where it\'s not according to spec. (github.com/accelerated)\n\n#### 0.9.3\n  \n - Switch testing framework to mocha/should.js (github.com/kenperkins)\n - Remove requirement of a Unix system from package.json (github.com/yawnt)\n - Fix a global leak of HttpSearchMeta (github.com/brianedgerton)\n\n#### 0.9.2\n\n - Fix Search options so it handles hostname and port (github.com/kenperkins)\n - Fix unwanted vector clock overwriting during link walking (github.com/TauZero)\n - Handle connection errors gracefully so that they don\'t kill the process\n\n#### 0.9.1\n\n - Request instrumentation for metrics, logging, etc.\n - Fix a leak in Httpmeta (github.com/rkusa), (#134)\n - Handle content length properly for Unicode data (#132)\n - Fix MapReduce options so it handles hostname and port (github.com/spencergibb)\n - Add support for link-walking (github.com/TauZero) \n - Handle JSONified error messages (github.com/spencergibb)\n - Fix parsing of links on get requests (github.com/TauZero)\n\n#### 0.9.0\n\n - Complete rewrite in JavaScript (two reasons: better debugging in production deployments, and more people can contribute)\n - Support Riak 1.0 features\n - First class support for streams (Luwak, key listing, Map/Reduce, logging)\n - Faster testing with node-seq + assert\n - Extra HTTP headers can now be passed in via `headers` (for instance custom usermeta, `X-Riak-Meta-*`) - these *will* override whatever has been set elsewhere\n - `addSearch` is now `search`\n - The project is open for other implementations\n - Removed Protocol Buffers support – contributions welcome (extend `Client` in a file called `protobuf-client.js` along with a `protobuf-meta.js`)\n - A client-side impl is also possible (look at https://github.com/ded/reqwest)\n - Support for Riak Search, including adding and removing documents directly.\n   Search is namespaced on the client separately: `riak.search.find(\'users\',\n   \'email:test@example.com\')`\n - Moved MapReduce to a separate namespace on the client to separate concerns in\n   a nicer way: `riak.mapreduce.add(\'users\').run()`\n\n##### TODO\n\n - Unify `meta` in all responses (check `getAll`, chunked map/reduce) - meta should allow for fine-grained mappings\n - SSL support\n - Use path internally but don\'t expose it as API (see `path` branch), to prepare for new URIs in Riak 1.0\n - More rigorous test suite (port from master)\n\n##### LATER\n - Integrate test backend\n \n#### 0.4.1\n\n - Add search params [gpascale]\n - SSL client [isaacs]\n - Last-modified date patch [siculars]\n - Add `meta.noError404` so that you can prevent 404s from showing up as errors [syrio]\n - Deprecation warnings\n\n#### 0.4.0\n\n - `db.update`: convenience method for updating documents\n - Changed debug behaviour: always log to stdout. Not providing a callback **will** output to `console.log` regardless of the setting\n\n#### 0.4.0rc3\n\n - Allow headers to override, useful for reverse proxies sitting between node and Riak\n - URI-encoding bucket/key is now an option (encodeUri)\n - Add documentation for map/reduce arguments\n - Remove agent from meta, which should fix critical bug (#64, #67)\n - Allow logging to alternate streams. And default to stderr, not stdout (thanks Mark!)\n - Add docs for host/port (thanks Ken!)\n - Add the new `presort` property for Riak Search (thanks Greg!)\n\n#### 0.4.0rc2\n\n - Major docs update => [http://riak-js.org](http://riak-js.org)\n - `keys=stream` emits `keys` events\n - `walk` now accepts `noJSON`\n - Support Map/Reduce timeout option\n - Protobuf interface refactor (still experimental support in 0.4)\n - Minor bug fixes\n\n#### 0.4.0rc1\n\n - node 0.4.x compatibility\n - npm 1.0 compatibility\n - Minor bug fixes\n\n#### 0.3.6\n\n - Fix index.js and package.json for npm compat\n - Fix recursing usermeta\n - Fix for luwak location parsing\n - Updates related to Riak Search operations\n\n#### 0.3.0beta6\n\n - Test backend implementation\n - Connect session store\n - Protobuf parsing is now more robust\n - Replace client every time ECONNREFUSED occurs\n - Initial Riak Search support\n - Minor bugfixing and internals refactoring\n\n#### 0.3.0beta5\n\n - Add support for bucket listing in HTTP (new Riak 0.14 feature)\n - Updated to CoffeeScript 1.0.0\n - Fixed a memory leak caused by adding too many Event Listeners\n - If there\'s no `vclock` present in a Meta, do not send any `clientId`\n\n\n### License\n\nSimplified BSD License\n\nCopyright 2011 Francisco Treacy. All rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are\npermitted provided that the following conditions are met:\n\n   1. Redistributions of source code must retain the above copyright notice, this list of\n      conditions and the following disclaimer.\n\n   2. Redistributions in binary form must reproduce the above copyright notice, this list\n      of conditions and the following disclaimer in the documentation and/or other materials\n      provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY FRANCISCO TREACY \'\'AS IS\'\' AND ANY EXPRESS OR IMPLIED\nWARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL FRANCISCO TREACY OR\nCONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\nCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON\nANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF\nADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe views and conclusions contained in the software and documentation are those of the\nauthors and should not be interpreted as representing official policies, either expressed\nor implied, of Francisco Treacy.\n',
+277 silly resolved     readmeFilename: 'README.md',
+277 silly resolved     repository:
+277 silly resolved      { type: 'git',
+277 silly resolved        url: 'https://github.com/mostlyserious/riak-js.git' },
+277 silly resolved     homepage: 'https://github.com/mostlyserious/riak-js',
+277 silly resolved     _id: 'riak-js@0.10.2',
+277 silly resolved     dist: { shasum: '60074078b417b8efb32d0853d4e35fa75f066653' },
+277 silly resolved     _from: 'riak-js@',
+277 silly resolved     _resolved: 'https://registry.npmjs.org/riak-js/-/riak-js-0.10.2.tgz' } ]
+278 info install riak-js@0.10.2 into D:\Repos\Git\api.brasil.io\educacao\src
+279 info installOne riak-js@0.10.2
+280 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js unbuild
+281 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+282 silly lockFile 7cb4e4db-ducacao-src-node-modules-riak-js tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js
+283 verbose lock tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js C:\Users\GustavoRPS\AppData\Roaming\npm-cache\7cb4e4db-ducacao-src-node-modules-riak-js.lock
+284 silly lockFile 1fe5298d-cache-riak-js-0-10-2-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+285 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\1fe5298d-cache-riak-js-0-10-2-package-tgz.lock
+286 silly gunzTarPerm modes [ '755', '644' ]
+287 silly gunzTarPerm extractEntry package.json
+288 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+289 silly gunzTarPerm extractEntry .npmignore
+290 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+291 silly gunzTarPerm extractEntry README.md
+292 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+293 silly gunzTarPerm extractEntry .travis.yml
+294 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+295 silly gunzTarPerm extractEntry Makefile
+296 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+297 silly gunzTarPerm extractEntry examples/logger.js
+298 silly gunzTarPerm modified mode [ 'examples/logger.js', 438, 420 ]
+299 silly gunzTarPerm extractEntry examples/metrics.js
+300 silly gunzTarPerm modified mode [ 'examples/metrics.js', 438, 420 ]
+301 silly gunzTarPerm extractEntry lib/client.js
+302 silly gunzTarPerm modified mode [ 'lib/client.js', 438, 420 ]
+303 silly gunzTarPerm extractEntry lib/http-search-client.js
+304 silly gunzTarPerm modified mode [ 'lib/http-search-client.js', 438, 420 ]
+305 silly gunzTarPerm extractEntry lib/http-search-meta.js
+306 silly gunzTarPerm modified mode [ 'lib/http-search-meta.js', 438, 420 ]
+307 silly gunzTarPerm extractEntry lib/index.js
+308 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+309 silly gunzTarPerm extractEntry lib/http-request.js
+310 silly gunzTarPerm modified mode [ 'lib/http-request.js', 438, 420 ]
+311 silly gunzTarPerm extractEntry lib/meta.js
+312 silly gunzTarPerm modified mode [ 'lib/meta.js', 438, 420 ]
+313 silly gunzTarPerm extractEntry lib/protocol-buffers-client.js
+314 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-client.js', 438, 420 ]
+315 silly gunzTarPerm extractEntry lib/protocol-buffers-mapreduce-client.js
+316 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-mapreduce-client.js', 438, 420 ]
+317 silly gunzTarPerm extractEntry lib/protocol-buffers-mapreduce-meta.js
+318 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-mapreduce-meta.js', 438, 420 ]
+319 silly gunzTarPerm extractEntry lib/protocol-buffers-meta.js
+320 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-meta.js', 438, 420 ]
+321 silly gunzTarPerm extractEntry lib/http-meta.js
+322 silly gunzTarPerm modified mode [ 'lib/http-meta.js', 438, 420 ]
+323 silly gunzTarPerm extractEntry lib/protocol-buffers-search-client.js
+324 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-search-client.js', 438, 420 ]
+325 silly gunzTarPerm extractEntry lib/http-mapreduce-client.js
+326 silly gunzTarPerm modified mode [ 'lib/http-mapreduce-client.js', 438, 420 ]
+327 silly gunzTarPerm extractEntry lib/protocol-buffers-search-meta.js
+328 silly gunzTarPerm modified mode [ 'lib/protocol-buffers-search-meta.js', 438, 420 ]
+329 silly gunzTarPerm extractEntry lib/http-client.js
+330 silly gunzTarPerm modified mode [ 'lib/http-client.js', 438, 420 ]
+331 silly gunzTarPerm extractEntry lib/utils.js
+332 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+333 silly gunzTarPerm extractEntry lib/mapper.js
+334 silly gunzTarPerm modified mode [ 'lib/mapper.js', 438, 420 ]
+335 silly gunzTarPerm extractEntry spec/riak.proto
+336 silly gunzTarPerm modified mode [ 'spec/riak.proto', 438, 420 ]
+337 silly gunzTarPerm extractEntry spec/riak_kv.proto
+338 silly gunzTarPerm modified mode [ 'spec/riak_kv.proto', 438, 420 ]
+339 silly gunzTarPerm extractEntry test/utils-test.js
+340 silly gunzTarPerm modified mode [ 'test/utils-test.js', 438, 420 ]
+341 silly gunzTarPerm extractEntry test/http-client-siblings-test.js
+342 silly gunzTarPerm modified mode [ 'test/http-client-siblings-test.js', 438, 420 ]
+343 silly gunzTarPerm extractEntry test/http-client-test.js
+344 silly gunzTarPerm modified mode [ 'test/http-client-test.js', 438, 420 ]
+345 silly gunzTarPerm extractEntry test/http-connection-test.js
+346 silly gunzTarPerm modified mode [ 'test/http-connection-test.js', 438, 420 ]
+347 silly gunzTarPerm extractEntry test/http-mapreduce-client-test.js
+348 silly gunzTarPerm modified mode [ 'test/http-mapreduce-client-test.js', 438, 420 ]
+349 silly gunzTarPerm extractEntry test/http-client-search-test.js
+350 silly gunzTarPerm modified mode [ 'test/http-client-search-test.js', 438, 420 ]
+351 silly gunzTarPerm extractEntry test/mapper-test.js
+352 silly gunzTarPerm modified mode [ 'test/mapper-test.js', 438, 420 ]
+353 silly gunzTarPerm extractEntry test/meta-test.js
+354 silly gunzTarPerm modified mode [ 'test/meta-test.js', 438, 420 ]
+355 silly gunzTarPerm extractEntry test/protocol-buffers-client-test.js
+356 silly gunzTarPerm modified mode [ 'test/protocol-buffers-client-test.js', 438, 420 ]
+357 silly gunzTarPerm extractEntry test/protocol-buffers-mapreduce-meta-test.js
+358 silly gunzTarPerm modified mode [ 'test/protocol-buffers-mapreduce-meta-test.js', 438, 420 ]
+359 silly gunzTarPerm extractEntry test/protocol-buffers-mapreduce-test.js
+360 silly gunzTarPerm modified mode [ 'test/protocol-buffers-mapreduce-test.js', 438, 420 ]
+361 silly gunzTarPerm extractEntry test/http-client-pool-test.js
+362 silly gunzTarPerm modified mode [ 'test/http-client-pool-test.js', 438, 420 ]
+363 silly gunzTarPerm extractEntry test/protocol-buffers-meta-test.js
+364 silly gunzTarPerm modified mode [ 'test/protocol-buffers-meta-test.js', 438, 420 ]
+365 silly gunzTarPerm extractEntry test/http-client-luwak-test.js
+366 silly gunzTarPerm modified mode [ 'test/http-client-luwak-test.js', 438, 420 ]
+367 silly gunzTarPerm extractEntry test/protocol-buffers-search-test.js
+368 silly gunzTarPerm modified mode [ 'test/protocol-buffers-search-test.js', 438, 420 ]
+369 silly gunzTarPerm extractEntry test/http-client-instrumentation-test.js
+370 silly gunzTarPerm modified mode [ 'test/http-client-instrumentation-test.js', 438, 420 ]
+371 silly gunzTarPerm extractEntry test/http-meta-test.js
+372 silly gunzTarPerm modified mode [ 'test/http-meta-test.js', 438, 420 ]
+373 silly gunzTarPerm extractEntry test/server/http_test.coffee
+374 silly gunzTarPerm modified mode [ 'test/server/http_test.coffee', 438, 420 ]
+375 silly gunzTarPerm extractEntry test/server/test_server.coffee
+376 silly gunzTarPerm modified mode [ 'test/server/test_server.coffee', 438, 420 ]
+377 silly gunzTarPerm extractEntry test/server/test_server_test.coffee
+378 silly gunzTarPerm modified mode [ 'test/server/test_server_test.coffee', 438, 420 ]
+379 silly gunzTarPerm extractEntry test/fixtures/big_multipart
+380 silly gunzTarPerm modified mode [ 'test/fixtures/big_multipart', 438, 420 ]
+381 silly gunzTarPerm extractEntry test/fixtures/cat.jpg
+382 silly gunzTarPerm modified mode [ 'test/fixtures/cat.jpg', 438, 420 ]
+383 silly gunzTarPerm extractEntry test/fixtures/multipart
+384 silly gunzTarPerm modified mode [ 'test/fixtures/multipart', 438, 420 ]
+385 silly lockFile 7cb4e4db-ducacao-src-node-modules-riak-js tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js
+386 silly lockFile 7cb4e4db-ducacao-src-node-modules-riak-js tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js
+387 silly lockFile 1fe5298d-cache-riak-js-0-10-2-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+388 silly lockFile 1fe5298d-cache-riak-js-0-10-2-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riak-js\0.10.2\package.tgz
+389 info preinstall riak-js@0.10.2
+390 verbose readDependencies using package.json deps
+391 verbose readDependencies using package.json deps
+392 verbose cache add [ 'xml@0.0.7', null ]
+393 verbose cache add name=undefined spec="xml@0.0.7" args=["xml@0.0.7",null]
+394 verbose parsed url { protocol: null,
+394 verbose parsed url   slashes: null,
+394 verbose parsed url   auth: null,
+394 verbose parsed url   host: null,
+394 verbose parsed url   port: null,
+394 verbose parsed url   hostname: null,
+394 verbose parsed url   hash: null,
+394 verbose parsed url   search: null,
+394 verbose parsed url   query: null,
+394 verbose parsed url   pathname: 'xml@0.0.7',
+394 verbose parsed url   path: 'xml@0.0.7',
+394 verbose parsed url   href: 'xml@0.0.7' }
+395 verbose cache add name="xml" spec="0.0.7" args=["xml","0.0.7"]
+396 verbose parsed url { protocol: null,
+396 verbose parsed url   slashes: null,
+396 verbose parsed url   auth: null,
+396 verbose parsed url   host: null,
+396 verbose parsed url   port: null,
+396 verbose parsed url   hostname: null,
+396 verbose parsed url   hash: null,
+396 verbose parsed url   search: null,
+396 verbose parsed url   query: null,
+396 verbose parsed url   pathname: '0.0.7',
+396 verbose parsed url   path: '0.0.7',
+396 verbose parsed url   href: '0.0.7' }
+397 verbose addNamed [ 'xml', '0.0.7' ]
+398 verbose addNamed [ '0.0.7', '0.0.7' ]
+399 silly lockFile e6563dea-xml-0-0-7 xml@0.0.7
+400 verbose lock xml@0.0.7 C:\Users\GustavoRPS\AppData\Roaming\npm-cache\e6563dea-xml-0-0-7.lock
+401 verbose cache add [ 'poolee@~0.4.8', null ]
+402 verbose cache add name=undefined spec="poolee@~0.4.8" args=["poolee@~0.4.8",null]
+403 verbose parsed url { protocol: null,
+403 verbose parsed url   slashes: null,
+403 verbose parsed url   auth: null,
+403 verbose parsed url   host: null,
+403 verbose parsed url   port: null,
+403 verbose parsed url   hostname: null,
+403 verbose parsed url   hash: null,
+403 verbose parsed url   search: null,
+403 verbose parsed url   query: null,
+403 verbose parsed url   pathname: 'poolee@~0.4.8',
+403 verbose parsed url   path: 'poolee@~0.4.8',
+403 verbose parsed url   href: 'poolee@~0.4.8' }
+404 verbose cache add name="poolee" spec="~0.4.8" args=["poolee","~0.4.8"]
+405 verbose parsed url { protocol: null,
+405 verbose parsed url   slashes: null,
+405 verbose parsed url   auth: null,
+405 verbose parsed url   host: null,
+405 verbose parsed url   port: null,
+405 verbose parsed url   hostname: null,
+405 verbose parsed url   hash: null,
+405 verbose parsed url   search: null,
+405 verbose parsed url   query: null,
+405 verbose parsed url   pathname: '~0.4.8',
+405 verbose parsed url   path: '~0.4.8',
+405 verbose parsed url   href: '~0.4.8' }
+406 verbose addNamed [ 'poolee', '~0.4.8' ]
+407 verbose addNamed [ null, '>=0.4.8-0 <0.5.0-0' ]
+408 silly lockFile 66add469-poolee-0-4-8 poolee@~0.4.8
+409 verbose lock poolee@~0.4.8 C:\Users\GustavoRPS\AppData\Roaming\npm-cache\66add469-poolee-0-4-8.lock
+410 verbose cache add [ 'butils@', null ]
+411 verbose cache add name=undefined spec="butils@" args=["butils@",null]
+412 verbose parsed url { protocol: null,
+412 verbose parsed url   slashes: null,
+412 verbose parsed url   auth: null,
+412 verbose parsed url   host: null,
+412 verbose parsed url   port: null,
+412 verbose parsed url   hostname: null,
+412 verbose parsed url   hash: null,
+412 verbose parsed url   search: null,
+412 verbose parsed url   query: null,
+412 verbose parsed url   pathname: 'butils@',
+412 verbose parsed url   path: 'butils@',
+412 verbose parsed url   href: 'butils@' }
+413 verbose cache add name="butils" spec="" args=["butils",""]
+414 verbose parsed url { protocol: null,
+414 verbose parsed url   slashes: null,
+414 verbose parsed url   auth: null,
+414 verbose parsed url   host: null,
+414 verbose parsed url   port: null,
+414 verbose parsed url   hostname: null,
+414 verbose parsed url   hash: null,
+414 verbose parsed url   search: null,
+414 verbose parsed url   query: null,
+414 verbose parsed url   pathname: null,
+414 verbose parsed url   path: null,
+414 verbose parsed url   href: '' }
+415 verbose addNamed [ 'butils', '' ]
+416 verbose addNamed [ null, '*' ]
+417 silly lockFile 1759d077-butils butils@
+418 verbose lock butils@ C:\Users\GustavoRPS\AppData\Roaming\npm-cache\1759d077-butils.lock
+419 verbose cache add [ 'protobuf.js@0.0.17', null ]
+420 verbose cache add name=undefined spec="protobuf.js@0.0.17" args=["protobuf.js@0.0.17",null]
+421 verbose parsed url { protocol: null,
+421 verbose parsed url   slashes: null,
+421 verbose parsed url   auth: null,
+421 verbose parsed url   host: null,
+421 verbose parsed url   port: null,
+421 verbose parsed url   hostname: null,
+421 verbose parsed url   hash: null,
+421 verbose parsed url   search: null,
+421 verbose parsed url   query: null,
+421 verbose parsed url   pathname: 'protobuf.js@0.0.17',
+421 verbose parsed url   path: 'protobuf.js@0.0.17',
+421 verbose parsed url   href: 'protobuf.js@0.0.17' }
+422 verbose cache add name="protobuf.js" spec="0.0.17" args=["protobuf.js","0.0.17"]
+423 verbose parsed url { protocol: null,
+423 verbose parsed url   slashes: null,
+423 verbose parsed url   auth: null,
+423 verbose parsed url   host: null,
+423 verbose parsed url   port: null,
+423 verbose parsed url   hostname: null,
+423 verbose parsed url   hash: null,
+423 verbose parsed url   search: null,
+423 verbose parsed url   query: null,
+423 verbose parsed url   pathname: '0.0.17',
+423 verbose parsed url   path: '0.0.17',
+423 verbose parsed url   href: '0.0.17' }
+424 verbose addNamed [ 'protobuf.js', '0.0.17' ]
+425 verbose addNamed [ '0.0.17', '0.0.17' ]
+426 silly lockFile d3cca709-protobuf-js-0-0-17 protobuf.js@0.0.17
+427 verbose lock protobuf.js@0.0.17 C:\Users\GustavoRPS\AppData\Roaming\npm-cache\d3cca709-protobuf-js-0-0-17.lock
+428 verbose cache add [ 'riakpbc@0.0.12', null ]
+429 verbose cache add name=undefined spec="riakpbc@0.0.12" args=["riakpbc@0.0.12",null]
+430 verbose parsed url { protocol: null,
+430 verbose parsed url   slashes: null,
+430 verbose parsed url   auth: null,
+430 verbose parsed url   host: null,
+430 verbose parsed url   port: null,
+430 verbose parsed url   hostname: null,
+430 verbose parsed url   hash: null,
+430 verbose parsed url   search: null,
+430 verbose parsed url   query: null,
+430 verbose parsed url   pathname: 'riakpbc@0.0.12',
+430 verbose parsed url   path: 'riakpbc@0.0.12',
+430 verbose parsed url   href: 'riakpbc@0.0.12' }
+431 verbose cache add name="riakpbc" spec="0.0.12" args=["riakpbc","0.0.12"]
+432 verbose parsed url { protocol: null,
+432 verbose parsed url   slashes: null,
+432 verbose parsed url   auth: null,
+432 verbose parsed url   host: null,
+432 verbose parsed url   port: null,
+432 verbose parsed url   hostname: null,
+432 verbose parsed url   hash: null,
+432 verbose parsed url   search: null,
+432 verbose parsed url   query: null,
+432 verbose parsed url   pathname: '0.0.12',
+432 verbose parsed url   path: '0.0.12',
+432 verbose parsed url   href: '0.0.12' }
+433 verbose addNamed [ 'riakpbc', '0.0.12' ]
+434 verbose addNamed [ '0.0.12', '0.0.12' ]
+435 silly lockFile c9023768-riakpbc-0-0-12 riakpbc@0.0.12
+436 verbose lock riakpbc@0.0.12 C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c9023768-riakpbc-0-0-12.lock
+437 silly addNameRange { name: 'poolee', range: '>=0.4.8-0 <0.5.0-0', hasData: false }
+438 silly addNameRange { name: 'butils', range: '*', hasData: false }
+439 verbose url raw xml/0.0.7
+440 verbose url resolving [ 'https://registry.npmjs.org/', './xml/0.0.7' ]
+441 verbose url resolved https://registry.npmjs.org/xml/0.0.7
+442 info trying registry request attempt 1 at 01:22:04
+443 http GET https://registry.npmjs.org/xml/0.0.7
+444 verbose url raw poolee
+445 verbose url resolving [ 'https://registry.npmjs.org/', './poolee' ]
+446 verbose url resolved https://registry.npmjs.org/poolee
+447 info trying registry request attempt 1 at 01:22:04
+448 http GET https://registry.npmjs.org/poolee
+449 verbose url raw protobuf.js/0.0.17
+450 verbose url resolving [ 'https://registry.npmjs.org/', './protobuf.js/0.0.17' ]
+451 verbose url resolved https://registry.npmjs.org/protobuf.js/0.0.17
+452 info trying registry request attempt 1 at 01:22:04
+453 http GET https://registry.npmjs.org/protobuf.js/0.0.17
+454 verbose url raw butils
+455 verbose url resolving [ 'https://registry.npmjs.org/', './butils' ]
+456 verbose url resolved https://registry.npmjs.org/butils
+457 info trying registry request attempt 1 at 01:22:04
+458 http GET https://registry.npmjs.org/butils
+459 verbose url raw riakpbc/0.0.12
+460 verbose url resolving [ 'https://registry.npmjs.org/', './riakpbc/0.0.12' ]
+461 verbose url resolved https://registry.npmjs.org/riakpbc/0.0.12
+462 info trying registry request attempt 1 at 01:22:04
+463 http GET https://registry.npmjs.org/riakpbc/0.0.12
+464 http 200 https://registry.npmjs.org/xml/0.0.7
+465 silly registry.get cb [ 200,
+465 silly registry.get   { date: 'Sun, 18 May 2014 04:22:05 GMT',
+465 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+465 silly registry.get     etag: '"9NXLRBE0NN0R403NWLK7YYIRH"',
+465 silly registry.get     'content-type': 'application/json',
+465 silly registry.get     via: '1.1 varnish',
+465 silly registry.get     'cache-control': 'max-age=1',
+465 silly registry.get     'content-length': '1237',
+465 silly registry.get     'accept-ranges': 'bytes',
+465 silly registry.get     age: '498',
+465 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-jfk1026-JFK',
+465 silly registry.get     'x-cache': 'MISS, MISS',
+465 silly registry.get     'x-cache-hits': '0, 0',
+465 silly registry.get     'x-timer': 'S1400386925.769273281,VS0,VS3,VE100,VE104',
+465 silly registry.get     vary: 'Accept',
+465 silly registry.get     'keep-alive': 'timeout=10, max=50',
+465 silly registry.get     connection: 'Keep-Alive' } ]
+466 silly lockFile 68c3996b-stry-npmjs-org-xml-xml-0-0-7-tgz https://registry.npmjs.org/xml/-/xml-0.0.7.tgz
+467 verbose lock https://registry.npmjs.org/xml/-/xml-0.0.7.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\68c3996b-stry-npmjs-org-xml-xml-0-0-7-tgz.lock
+468 verbose addRemoteTarball [ 'https://registry.npmjs.org/xml/-/xml-0.0.7.tgz',
+468 verbose addRemoteTarball   '1c07eab653658ab207369a905a463f2d3f605f8c' ]
+469 info retry fetch attempt 1 at 01:22:05
+470 verbose fetch to= C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\tmp.tgz
+471 http GET https://registry.npmjs.org/xml/-/xml-0.0.7.tgz
+472 http 200 https://registry.npmjs.org/butils
+473 silly registry.get cb [ 200,
+473 silly registry.get   { date: 'Sun, 18 May 2014 04:22:06 GMT',
+473 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+473 silly registry.get     etag: '"7AKJZN6GADHQFKKM1VLO2BUDJ"',
+473 silly registry.get     'content-type': 'application/json',
+473 silly registry.get     via: '1.1 varnish',
+473 silly registry.get     'cache-control': 'max-age=1',
+473 silly registry.get     'content-length': '8655',
+473 silly registry.get     'accept-ranges': 'bytes',
+473 silly registry.get     age: '0',
+473 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-jfk1024-JFK',
+473 silly registry.get     'x-cache': 'MISS, MISS',
+473 silly registry.get     'x-cache-hits': '0, 0',
+473 silly registry.get     'x-timer': 'S1400386925.983975172,VS0,VS2,VE104,VE108',
+473 silly registry.get     vary: 'Accept',
+473 silly registry.get     'keep-alive': 'timeout=10, max=50',
+473 silly registry.get     connection: 'Keep-Alive' } ]
+474 silly addNameRange number 2 { name: 'butils', range: '*', hasData: true }
+475 silly addNameRange versions [ 'butils',
+475 silly addNameRange   [ '0.0.1',
+475 silly addNameRange     '0.0.2',
+475 silly addNameRange     '0.0.3',
+475 silly addNameRange     '0.0.4',
+475 silly addNameRange     '0.0.5',
+475 silly addNameRange     '0.0.6',
+475 silly addNameRange     '0.0.7',
+475 silly addNameRange     '0.1.0' ] ]
+476 verbose addNamed [ 'butils', '0.1.0' ]
+477 verbose addNamed [ '0.1.0', '0.1.0' ]
+478 silly lockFile 1abd48bb-butils-0-1-0 butils@0.1.0
+479 verbose lock butils@0.1.0 C:\Users\GustavoRPS\AppData\Roaming\npm-cache\1abd48bb-butils-0-1-0.lock
+480 silly lockFile 2cef8459-pmjs-org-butils-butils-0-1-0-tgz https://registry.npmjs.org/butils/-/butils-0.1.0.tgz
+481 verbose lock https://registry.npmjs.org/butils/-/butils-0.1.0.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\2cef8459-pmjs-org-butils-butils-0-1-0-tgz.lock
+482 verbose addRemoteTarball [ 'https://registry.npmjs.org/butils/-/butils-0.1.0.tgz',
+482 verbose addRemoteTarball   '41e296f55d78faa96cc3fdb8cc7cfa7a66a6a4b8' ]
+483 info retry fetch attempt 1 at 01:22:06
+484 verbose fetch to= C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\tmp.tgz
+485 http GET https://registry.npmjs.org/butils/-/butils-0.1.0.tgz
+486 http 200 https://registry.npmjs.org/xml/-/xml-0.0.7.tgz
+487 verbose tar unpack C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\tmp.tgz
+488 silly lockFile 933d8cb5-25689-0-3122342836577445-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\package
+489 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\933d8cb5-25689-0-3122342836577445-package.lock
+490 silly lockFile 6b259b52-25689-0-3122342836577445-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\tmp.tgz
+491 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\tmp.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\6b259b52-25689-0-3122342836577445-tmp-tgz.lock
+492 silly gunzTarPerm modes [ '755', '644' ]
+493 silly gunzTarPerm extractEntry index.js
+494 silly gunzTarPerm extractEntry LICENSE
+495 silly gunzTarPerm extractEntry package.json
+496 silly gunzTarPerm extractEntry readme.md
+497 silly gunzTarPerm extractEntry examples/examples.js
+498 silly gunzTarPerm extractEntry examples/server.js
+499 silly gunzTarPerm extractEntry lib/util.js
+500 silly gunzTarPerm extractEntry lib/xml.js
+501 silly gunzTarPerm extractEntry test/nodemon-ignore
+502 silly gunzTarPerm extractEntry test/test.js
+503 silly gunzTarPerm extractEntry .idea/.name
+504 silly gunzTarPerm extractEntry .idea/encodings.xml
+505 silly gunzTarPerm extractEntry .idea/misc.xml
+506 silly gunzTarPerm extractEntry .idea/modules.xml
+507 silly gunzTarPerm extractEntry .idea/node-xml.iml
+508 silly gunzTarPerm extractEntry .idea/vcs.xml
+509 silly gunzTarPerm extractEntry .idea/workspace.xml
+510 silly gunzTarPerm extractEntry .idea/dictionaries/dylan.xml
+511 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+512 http 200 https://registry.npmjs.org/protobuf.js/0.0.17
+513 silly registry.get cb [ 200,
+513 silly registry.get   { date: 'Sun, 18 May 2014 04:22:06 GMT',
+513 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+513 silly registry.get     etag: '"9BLP60RZRQ5EI6H3ILOKKLSQQ"',
+513 silly registry.get     'content-type': 'application/json',
+513 silly registry.get     via: '1.1 varnish',
+513 silly registry.get     'cache-control': 'max-age=1',
+513 silly registry.get     'content-length': '814',
+513 silly registry.get     'accept-ranges': 'bytes',
+513 silly registry.get     age: '0',
+513 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-jfk1029-JFK',
+513 silly registry.get     'x-cache': 'MISS, MISS',
+513 silly registry.get     'x-cache-hits': '0, 0',
+513 silly registry.get     'x-timer': 'S1400386926.885945797,VS0,VS3,VE18,VE22',
+513 silly registry.get     vary: 'Accept',
+513 silly registry.get     'keep-alive': 'timeout=10, max=50',
+513 silly registry.get     connection: 'Keep-Alive' } ]
+514 silly lockFile 352a4c13-otobuf-js-protobuf-js-0-0-17-tgz https://registry.npmjs.org/protobuf.js/-/protobuf.js-0.0.17.tgz
+515 verbose lock https://registry.npmjs.org/protobuf.js/-/protobuf.js-0.0.17.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\352a4c13-otobuf-js-protobuf-js-0-0-17-tgz.lock
+516 verbose addRemoteTarball [ 'https://registry.npmjs.org/protobuf.js/-/protobuf.js-0.0.17.tgz',
+516 verbose addRemoteTarball   'bb1c12d49e125aeef4a912971f1c2fc51f3b38e6' ]
+517 info retry fetch attempt 1 at 01:22:06
+518 verbose fetch to= C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\tmp.tgz
+519 http GET https://registry.npmjs.org/protobuf.js/-/protobuf.js-0.0.17.tgz
+520 silly lockFile 933d8cb5-25689-0-3122342836577445-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\package
+521 silly lockFile 933d8cb5-25689-0-3122342836577445-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\package
+522 silly lockFile 6b259b52-25689-0-3122342836577445-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\tmp.tgz
+523 silly lockFile 6b259b52-25689-0-3122342836577445-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\tmp.tgz
+524 verbose tar pack [ 'C:\\Users\\GustavoRPS\\AppData\\Roaming\\npm-cache\\xml\\0.0.7\\package.tgz',
+524 verbose tar pack   'C:\\Users\\GUSTAV~1\\AppData\\Local\\Temp\\npm-5776-KTuV3gF5\\1400386925689-0.3122342836577445\\package' ]
+525 verbose tarball C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+526 verbose folder C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\package
+527 silly lockFile 933d8cb5-25689-0-3122342836577445-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\package
+528 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\933d8cb5-25689-0-3122342836577445-package.lock
+529 silly lockFile 49367ce7--npm-cache-xml-0-0-7-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+530 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\49367ce7--npm-cache-xml-0-0-7-package-tgz.lock
+531 silly lockFile 933d8cb5-25689-0-3122342836577445-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\package
+532 silly lockFile 933d8cb5-25689-0-3122342836577445-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386925689-0.3122342836577445\package
+533 silly lockFile 49367ce7--npm-cache-xml-0-0-7-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+534 silly lockFile 49367ce7--npm-cache-xml-0-0-7-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+535 silly lockFile c6e98d19-ming-npm-cache-xml-0-0-7-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package
+536 verbose lock C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c6e98d19-ming-npm-cache-xml-0-0-7-package.lock
+537 silly lockFile c6e98d19-ming-npm-cache-xml-0-0-7-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package
+538 silly lockFile c6e98d19-ming-npm-cache-xml-0-0-7-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package
+539 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+540 silly lockFile 6f293ff2-ming-npm-cache-xml-0-0-7-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package
+541 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\6f293ff2-ming-npm-cache-xml-0-0-7-package.lock
+542 silly lockFile 49367ce7--npm-cache-xml-0-0-7-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+543 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\49367ce7--npm-cache-xml-0-0-7-package-tgz.lock
+544 silly gunzTarPerm modes [ '755', '644' ]
+545 silly gunzTarPerm extractEntry package.json
+546 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+547 silly gunzTarPerm extractEntry LICENSE
+548 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+549 silly gunzTarPerm extractEntry index.js
+550 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+551 silly gunzTarPerm extractEntry .idea/.name
+552 silly gunzTarPerm modified mode [ '.idea/.name', 438, 420 ]
+553 silly gunzTarPerm extractEntry .idea/dictionaries/dylan.xml
+554 silly gunzTarPerm modified mode [ '.idea/dictionaries/dylan.xml', 438, 420 ]
+555 silly gunzTarPerm extractEntry .idea/encodings.xml
+556 silly gunzTarPerm modified mode [ '.idea/encodings.xml', 438, 420 ]
+557 silly gunzTarPerm extractEntry .idea/misc.xml
+558 silly gunzTarPerm modified mode [ '.idea/misc.xml', 438, 420 ]
+559 silly gunzTarPerm extractEntry .idea/modules.xml
+560 silly gunzTarPerm modified mode [ '.idea/modules.xml', 438, 420 ]
+561 silly gunzTarPerm extractEntry .idea/node-xml.iml
+562 silly gunzTarPerm modified mode [ '.idea/node-xml.iml', 438, 420 ]
+563 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+564 silly gunzTarPerm modified mode [ '.idea/scopes/scope_settings.xml', 438, 420 ]
+565 silly gunzTarPerm extractEntry .idea/vcs.xml
+566 silly gunzTarPerm modified mode [ '.idea/vcs.xml', 438, 420 ]
+567 silly gunzTarPerm extractEntry .idea/workspace.xml
+568 silly gunzTarPerm modified mode [ '.idea/workspace.xml', 438, 420 ]
+569 silly gunzTarPerm extractEntry examples/examples.js
+570 silly gunzTarPerm modified mode [ 'examples/examples.js', 438, 420 ]
+571 silly gunzTarPerm extractEntry examples/server.js
+572 silly gunzTarPerm modified mode [ 'examples/server.js', 438, 420 ]
+573 silly gunzTarPerm extractEntry lib/util.js
+574 silly gunzTarPerm modified mode [ 'lib/util.js', 438, 420 ]
+575 silly gunzTarPerm extractEntry lib/xml.js
+576 silly gunzTarPerm modified mode [ 'lib/xml.js', 438, 420 ]
+577 silly gunzTarPerm extractEntry readme.md
+578 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+579 silly gunzTarPerm extractEntry test/test.js
+580 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+581 silly gunzTarPerm extractEntry test/nodemon-ignore
+582 silly gunzTarPerm modified mode [ 'test/nodemon-ignore', 438, 420 ]
+583 silly lockFile 6f293ff2-ming-npm-cache-xml-0-0-7-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package
+584 silly lockFile 6f293ff2-ming-npm-cache-xml-0-0-7-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package
+585 silly lockFile 49367ce7--npm-cache-xml-0-0-7-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+586 silly lockFile 49367ce7--npm-cache-xml-0-0-7-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+587 verbose chmod C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz 644
+588 silly chown skipping for windows C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+589 silly lockFile 68c3996b-stry-npmjs-org-xml-xml-0-0-7-tgz https://registry.npmjs.org/xml/-/xml-0.0.7.tgz
+590 silly lockFile 68c3996b-stry-npmjs-org-xml-xml-0-0-7-tgz https://registry.npmjs.org/xml/-/xml-0.0.7.tgz
+591 silly lockFile e6563dea-xml-0-0-7 xml@0.0.7
+592 silly lockFile e6563dea-xml-0-0-7 xml@0.0.7
+593 http 200 https://registry.npmjs.org/riakpbc/0.0.12
+594 silly registry.get cb [ 200,
+594 silly registry.get   { date: 'Sun, 18 May 2014 04:22:06 GMT',
+594 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+594 silly registry.get     etag: '"DJBX3R3TCZQADC2GZHSQJ3RH4"',
+594 silly registry.get     'content-type': 'application/json',
+594 silly registry.get     via: '1.1 varnish',
+594 silly registry.get     'cache-control': 'max-age=1',
+594 silly registry.get     'content-length': '792',
+594 silly registry.get     'accept-ranges': 'bytes',
+594 silly registry.get     age: '0',
+594 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-jfk1032-JFK',
+594 silly registry.get     'x-cache': 'MISS, MISS',
+594 silly registry.get     'x-cache-hits': '0, 0',
+594 silly registry.get     'x-timer': 'S1400386926.604577780,VS0,VS3,VE23,VE26',
+594 silly registry.get     vary: 'Accept',
+594 silly registry.get     'keep-alive': 'timeout=10, max=50',
+594 silly registry.get     connection: 'Keep-Alive' } ]
+595 silly lockFile 35c39f08-s-org-riakpbc-riakpbc-0-0-12-tgz https://registry.npmjs.org/riakpbc/-/riakpbc-0.0.12.tgz
+596 verbose lock https://registry.npmjs.org/riakpbc/-/riakpbc-0.0.12.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\35c39f08-s-org-riakpbc-riakpbc-0-0-12-tgz.lock
+597 verbose addRemoteTarball [ 'https://registry.npmjs.org/riakpbc/-/riakpbc-0.0.12.tgz',
+597 verbose addRemoteTarball   'cf089e0e1d16931583bbbf84d0f3fe7d0531a0bd' ]
+598 info retry fetch attempt 1 at 01:22:07
+599 verbose fetch to= C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\tmp.tgz
+600 http GET https://registry.npmjs.org/riakpbc/-/riakpbc-0.0.12.tgz
+601 http 200 https://registry.npmjs.org/butils/-/butils-0.1.0.tgz
+602 verbose tar unpack C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\tmp.tgz
+603 silly lockFile 31075c75-26109-0-9049630057998002-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\package
+604 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\31075c75-26109-0-9049630057998002-package.lock
+605 silly lockFile 55e6cbba-26109-0-9049630057998002-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\tmp.tgz
+606 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\tmp.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\55e6cbba-26109-0-9049630057998002-tmp-tgz.lock
+607 silly gunzTarPerm modes [ '755', '644' ]
+608 silly gunzTarPerm extractEntry package.json
+609 silly gunzTarPerm extractEntry .npmignore
+610 silly gunzTarPerm extractEntry README.md
+611 silly gunzTarPerm extractEntry bench.js
+612 silly gunzTarPerm extractEntry index.js
+613 silly gunzTarPerm extractEntry .jshintignore
+614 silly gunzTarPerm extractEntry .jshintrc
+615 silly gunzTarPerm extractEntry Makefile
+616 silly gunzTarPerm extractEntry test/index.js
+617 silly lockFile 31075c75-26109-0-9049630057998002-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\package
+618 silly lockFile 31075c75-26109-0-9049630057998002-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\package
+619 silly lockFile 55e6cbba-26109-0-9049630057998002-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\tmp.tgz
+620 silly lockFile 55e6cbba-26109-0-9049630057998002-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\tmp.tgz
+621 verbose tar pack [ 'C:\\Users\\GustavoRPS\\AppData\\Roaming\\npm-cache\\butils\\0.1.0\\package.tgz',
+621 verbose tar pack   'C:\\Users\\GUSTAV~1\\AppData\\Local\\Temp\\npm-5776-KTuV3gF5\\1400386926109-0.9049630057998002\\package' ]
+622 verbose tarball C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+623 verbose folder C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\package
+624 silly lockFile 31075c75-26109-0-9049630057998002-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\package
+625 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\31075c75-26109-0-9049630057998002-package.lock
+626 silly lockFile 532069d8-m-cache-butils-0-1-0-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+627 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\532069d8-m-cache-butils-0-1-0-package-tgz.lock
+628 silly lockFile 31075c75-26109-0-9049630057998002-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\package
+629 silly lockFile 31075c75-26109-0-9049630057998002-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926109-0.9049630057998002\package
+630 silly lockFile 532069d8-m-cache-butils-0-1-0-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+631 silly lockFile 532069d8-m-cache-butils-0-1-0-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+632 silly lockFile 045a6e8f-g-npm-cache-butils-0-1-0-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package
+633 verbose lock C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\045a6e8f-g-npm-cache-butils-0-1-0-package.lock
+634 silly lockFile 045a6e8f-g-npm-cache-butils-0-1-0-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package
+635 silly lockFile 045a6e8f-g-npm-cache-butils-0-1-0-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package
+636 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+637 silly lockFile 4f2a5c9b-g-npm-cache-butils-0-1-0-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package
+638 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\4f2a5c9b-g-npm-cache-butils-0-1-0-package.lock
+639 silly lockFile 532069d8-m-cache-butils-0-1-0-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+640 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\532069d8-m-cache-butils-0-1-0-package-tgz.lock
+641 silly gunzTarPerm modes [ '755', '644' ]
+642 silly gunzTarPerm extractEntry package.json
+643 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+644 silly gunzTarPerm extractEntry .npmignore
+645 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+646 silly gunzTarPerm extractEntry README.md
+647 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+648 silly gunzTarPerm extractEntry bench.js
+649 silly gunzTarPerm modified mode [ 'bench.js', 438, 420 ]
+650 silly gunzTarPerm extractEntry index.js
+651 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+652 silly gunzTarPerm extractEntry .jshintignore
+653 silly gunzTarPerm modified mode [ '.jshintignore', 438, 420 ]
+654 silly gunzTarPerm extractEntry .jshintrc
+655 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+656 silly gunzTarPerm extractEntry Makefile
+657 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+658 silly gunzTarPerm extractEntry test/index.js
+659 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+660 silly lockFile 4f2a5c9b-g-npm-cache-butils-0-1-0-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package
+661 silly lockFile 4f2a5c9b-g-npm-cache-butils-0-1-0-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package
+662 silly lockFile 532069d8-m-cache-butils-0-1-0-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+663 silly lockFile 532069d8-m-cache-butils-0-1-0-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+664 verbose chmod C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz 644
+665 silly chown skipping for windows C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+666 silly lockFile 2cef8459-pmjs-org-butils-butils-0-1-0-tgz https://registry.npmjs.org/butils/-/butils-0.1.0.tgz
+667 silly lockFile 2cef8459-pmjs-org-butils-butils-0-1-0-tgz https://registry.npmjs.org/butils/-/butils-0.1.0.tgz
+668 silly lockFile 1abd48bb-butils-0-1-0 butils@0.1.0
+669 silly lockFile 1abd48bb-butils-0-1-0 butils@0.1.0
+670 silly lockFile 1759d077-butils butils@
+671 silly lockFile 1759d077-butils butils@
+672 http 200 https://registry.npmjs.org/poolee
+673 silly registry.get cb [ 200,
+673 silly registry.get   { date: 'Sun, 18 May 2014 04:22:06 GMT',
+673 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+673 silly registry.get     etag: '"4JD9V36ISKGRRIYA5CZE4E8ZS"',
+673 silly registry.get     'content-type': 'application/json',
+673 silly registry.get     via: '1.1 varnish',
+673 silly registry.get     'cache-control': 'max-age=1',
+673 silly registry.get     'content-length': '91013',
+673 silly registry.get     'accept-ranges': 'bytes',
+673 silly registry.get     age: '0',
+673 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-jfk1031-JFK',
+673 silly registry.get     'x-cache': 'MISS, MISS',
+673 silly registry.get     'x-cache-hits': '0, 0',
+673 silly registry.get     'x-timer': 'S1400386926.609056234,VS0,VS4,VE373,VE384',
+673 silly registry.get     vary: 'Accept',
+673 silly registry.get     'keep-alive': 'timeout=10, max=50',
+673 silly registry.get     connection: 'Keep-Alive' } ]
+674 silly addNameRange number 2 { name: 'poolee', range: '>=0.4.8-0 <0.5.0-0', hasData: true }
+675 silly addNameRange versions [ 'poolee',
+675 silly addNameRange   [ '0.1.0',
+675 silly addNameRange     '0.1.1',
+675 silly addNameRange     '0.2.0',
+675 silly addNameRange     '0.3.0',
+675 silly addNameRange     '0.4.0',
+675 silly addNameRange     '0.4.1',
+675 silly addNameRange     '0.4.2',
+675 silly addNameRange     '0.4.3',
+675 silly addNameRange     '0.4.4',
+675 silly addNameRange     '0.4.5',
+675 silly addNameRange     '0.4.6',
+675 silly addNameRange     '0.4.7',
+675 silly addNameRange     '0.4.8',
+675 silly addNameRange     '0.4.9',
+675 silly addNameRange     '0.4.11' ] ]
+676 verbose addNamed [ 'poolee', '0.4.11' ]
+677 verbose addNamed [ '0.4.11', '0.4.11' ]
+678 silly lockFile 02e4392a-poolee-0-4-11 poolee@0.4.11
+679 verbose lock poolee@0.4.11 C:\Users\GustavoRPS\AppData\Roaming\npm-cache\02e4392a-poolee-0-4-11.lock
+680 silly lockFile b624f6f7-mjs-org-poolee-poolee-0-4-11-tgz https://registry.npmjs.org/poolee/-/poolee-0.4.11.tgz
+681 verbose lock https://registry.npmjs.org/poolee/-/poolee-0.4.11.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\b624f6f7-mjs-org-poolee-poolee-0-4-11-tgz.lock
+682 verbose addRemoteTarball [ 'https://registry.npmjs.org/poolee/-/poolee-0.4.11.tgz',
+682 verbose addRemoteTarball   'b06a1c25173b63d865f077444e57320528e6f3fe' ]
+683 info retry fetch attempt 1 at 01:22:08
+684 verbose fetch to= C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\tmp.tgz
+685 http GET https://registry.npmjs.org/poolee/-/poolee-0.4.11.tgz
+686 http 200 https://registry.npmjs.org/riakpbc/-/riakpbc-0.0.12.tgz
+687 verbose tar unpack C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\tmp.tgz
+688 silly lockFile 21665878-27014-0-9587326729670167-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\package
+689 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\21665878-27014-0-9587326729670167-package.lock
+690 silly lockFile 8fc5400f-27014-0-9587326729670167-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\tmp.tgz
+691 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\tmp.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\8fc5400f-27014-0-9587326729670167-tmp-tgz.lock
+692 silly gunzTarPerm modes [ '755', '644' ]
+693 silly gunzTarPerm extractEntry package.json
+694 silly gunzTarPerm extractEntry .npmignore
+695 silly gunzTarPerm extractEntry README.md
+696 silly gunzTarPerm extractEntry index.js
+697 silly gunzTarPerm extractEntry test.js
+698 silly gunzTarPerm extractEntry .jshintignore
+699 silly gunzTarPerm extractEntry .jshintrc
+700 silly gunzTarPerm extractEntry spec/riak.proto
+701 silly gunzTarPerm extractEntry spec/riak_kv.proto
+702 silly gunzTarPerm extractEntry test/spec.js
+703 silly lockFile 21665878-27014-0-9587326729670167-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\package
+704 silly lockFile 21665878-27014-0-9587326729670167-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\package
+705 silly lockFile 8fc5400f-27014-0-9587326729670167-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\tmp.tgz
+706 silly lockFile 8fc5400f-27014-0-9587326729670167-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\tmp.tgz
+707 verbose tar pack [ 'C:\\Users\\GustavoRPS\\AppData\\Roaming\\npm-cache\\riakpbc\\0.0.12\\package.tgz',
+707 verbose tar pack   'C:\\Users\\GUSTAV~1\\AppData\\Local\\Temp\\npm-5776-KTuV3gF5\\1400386927014-0.9587326729670167\\package' ]
+708 verbose tarball C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+709 verbose folder C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\package
+710 silly lockFile 21665878-27014-0-9587326729670167-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\package
+711 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\21665878-27014-0-9587326729670167-package.lock
+712 silly lockFile b946d1a7-cache-riakpbc-0-0-12-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+713 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\b946d1a7-cache-riakpbc-0-0-12-package-tgz.lock
+714 silly lockFile 21665878-27014-0-9587326729670167-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\package
+715 silly lockFile 21665878-27014-0-9587326729670167-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386927014-0.9587326729670167\package
+716 silly lockFile b946d1a7-cache-riakpbc-0-0-12-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+717 silly lockFile b946d1a7-cache-riakpbc-0-0-12-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+718 silly lockFile 889db174-npm-cache-riakpbc-0-0-12-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package
+719 verbose lock C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\889db174-npm-cache-riakpbc-0-0-12-package.lock
+720 silly lockFile 889db174-npm-cache-riakpbc-0-0-12-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package
+721 silly lockFile 889db174-npm-cache-riakpbc-0-0-12-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package
+722 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+723 silly lockFile 895aa892-npm-cache-riakpbc-0-0-12-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package
+724 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\895aa892-npm-cache-riakpbc-0-0-12-package.lock
+725 silly lockFile b946d1a7-cache-riakpbc-0-0-12-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+726 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\b946d1a7-cache-riakpbc-0-0-12-package-tgz.lock
+727 silly gunzTarPerm modes [ '755', '644' ]
+728 silly gunzTarPerm extractEntry package.json
+729 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+730 silly gunzTarPerm extractEntry .npmignore
+731 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+732 silly gunzTarPerm extractEntry README.md
+733 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+734 silly gunzTarPerm extractEntry index.js
+735 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+736 silly gunzTarPerm extractEntry test.js
+737 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+738 silly gunzTarPerm extractEntry .jshintignore
+739 silly gunzTarPerm modified mode [ '.jshintignore', 438, 420 ]
+740 silly gunzTarPerm extractEntry .jshintrc
+741 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+742 silly gunzTarPerm extractEntry spec/riak.proto
+743 silly gunzTarPerm modified mode [ 'spec/riak.proto', 438, 420 ]
+744 silly gunzTarPerm extractEntry spec/riak_kv.proto
+745 silly gunzTarPerm modified mode [ 'spec/riak_kv.proto', 438, 420 ]
+746 silly gunzTarPerm extractEntry test/spec.js
+747 silly gunzTarPerm modified mode [ 'test/spec.js', 438, 420 ]
+748 silly lockFile 895aa892-npm-cache-riakpbc-0-0-12-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package
+749 silly lockFile 895aa892-npm-cache-riakpbc-0-0-12-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package
+750 silly lockFile b946d1a7-cache-riakpbc-0-0-12-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+751 silly lockFile b946d1a7-cache-riakpbc-0-0-12-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+752 verbose chmod C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz 644
+753 silly chown skipping for windows C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+754 silly lockFile 35c39f08-s-org-riakpbc-riakpbc-0-0-12-tgz https://registry.npmjs.org/riakpbc/-/riakpbc-0.0.12.tgz
+755 silly lockFile 35c39f08-s-org-riakpbc-riakpbc-0-0-12-tgz https://registry.npmjs.org/riakpbc/-/riakpbc-0.0.12.tgz
+756 silly lockFile c9023768-riakpbc-0-0-12 riakpbc@0.0.12
+757 silly lockFile c9023768-riakpbc-0-0-12 riakpbc@0.0.12
+758 http 200 https://registry.npmjs.org/poolee/-/poolee-0.4.11.tgz
+759 verbose tar unpack C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\tmp.tgz
+760 silly lockFile f8164230-28325-0-6998496344313025-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\package
+761 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\f8164230-28325-0-6998496344313025-package.lock
+762 silly lockFile 2c875218-28325-0-6998496344313025-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\tmp.tgz
+763 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\tmp.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\2c875218-28325-0-6998496344313025-tmp-tgz.lock
+764 silly gunzTarPerm modes [ '755', '644' ]
+765 silly gunzTarPerm extractEntry package.json
+766 silly gunzTarPerm extractEntry .npmignore
+767 silly gunzTarPerm extractEntry LICENSE
+768 silly gunzTarPerm extractEntry index.js
+769 silly gunzTarPerm extractEntry .travis.yml
+770 silly gunzTarPerm extractEntry lib/endpoint.js
+771 silly gunzTarPerm extractEntry lib/error.js
+772 silly gunzTarPerm extractEntry lib/pinger.js
+773 silly gunzTarPerm extractEntry lib/pool.js
+774 silly gunzTarPerm extractEntry lib/request_set.js
+775 silly gunzTarPerm extractEntry readme.md
+776 silly gunzTarPerm extractEntry test/endpoint_test.js
+777 silly gunzTarPerm extractEntry test/integration_test.js
+778 silly gunzTarPerm extractEntry test/pool_test.js
+779 silly gunzTarPerm extractEntry test/requestset_test.js
+780 silly lockFile f8164230-28325-0-6998496344313025-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\package
+781 silly lockFile f8164230-28325-0-6998496344313025-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\package
+782 silly lockFile 2c875218-28325-0-6998496344313025-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\tmp.tgz
+783 silly lockFile 2c875218-28325-0-6998496344313025-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\tmp.tgz
+784 verbose tar pack [ 'C:\\Users\\GustavoRPS\\AppData\\Roaming\\npm-cache\\poolee\\0.4.11\\package.tgz',
+784 verbose tar pack   'C:\\Users\\GUSTAV~1\\AppData\\Local\\Temp\\npm-5776-KTuV3gF5\\1400386928325-0.6998496344313025\\package' ]
+785 verbose tarball C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+786 verbose folder C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\package
+787 silly lockFile f8164230-28325-0-6998496344313025-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\package
+788 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\f8164230-28325-0-6998496344313025-package.lock
+789 silly lockFile 038b552c--cache-poolee-0-4-11-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+790 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\038b552c--cache-poolee-0-4-11-package-tgz.lock
+791 silly lockFile f8164230-28325-0-6998496344313025-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\package
+792 silly lockFile f8164230-28325-0-6998496344313025-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386928325-0.6998496344313025\package
+793 silly lockFile 038b552c--cache-poolee-0-4-11-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+794 silly lockFile 038b552c--cache-poolee-0-4-11-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+795 silly lockFile 122cd748--npm-cache-poolee-0-4-11-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package
+796 verbose lock C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\122cd748--npm-cache-poolee-0-4-11-package.lock
+797 silly lockFile 122cd748--npm-cache-poolee-0-4-11-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package
+798 silly lockFile 122cd748--npm-cache-poolee-0-4-11-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package
+799 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+800 silly lockFile 49a8e81e--npm-cache-poolee-0-4-11-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package
+801 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\49a8e81e--npm-cache-poolee-0-4-11-package.lock
+802 silly lockFile 038b552c--cache-poolee-0-4-11-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+803 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\038b552c--cache-poolee-0-4-11-package-tgz.lock
+804 silly gunzTarPerm modes [ '755', '644' ]
+805 silly gunzTarPerm extractEntry package.json
+806 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+807 silly gunzTarPerm extractEntry .npmignore
+808 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+809 silly gunzTarPerm extractEntry LICENSE
+810 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+811 silly gunzTarPerm extractEntry index.js
+812 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+813 silly gunzTarPerm extractEntry .travis.yml
+814 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+815 silly gunzTarPerm extractEntry lib/endpoint.js
+816 silly gunzTarPerm modified mode [ 'lib/endpoint.js', 438, 420 ]
+817 silly gunzTarPerm extractEntry lib/error.js
+818 silly gunzTarPerm modified mode [ 'lib/error.js', 438, 420 ]
+819 silly gunzTarPerm extractEntry lib/pinger.js
+820 silly gunzTarPerm modified mode [ 'lib/pinger.js', 438, 420 ]
+821 silly gunzTarPerm extractEntry lib/pool.js
+822 silly gunzTarPerm modified mode [ 'lib/pool.js', 438, 420 ]
+823 silly gunzTarPerm extractEntry lib/request_set.js
+824 silly gunzTarPerm modified mode [ 'lib/request_set.js', 438, 420 ]
+825 silly gunzTarPerm extractEntry readme.md
+826 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+827 silly gunzTarPerm extractEntry test/endpoint_test.js
+828 silly gunzTarPerm modified mode [ 'test/endpoint_test.js', 438, 420 ]
+829 silly gunzTarPerm extractEntry test/integration_test.js
+830 silly gunzTarPerm modified mode [ 'test/integration_test.js', 438, 420 ]
+831 silly gunzTarPerm extractEntry test/pool_test.js
+832 silly gunzTarPerm modified mode [ 'test/pool_test.js', 438, 420 ]
+833 silly gunzTarPerm extractEntry test/requestset_test.js
+834 silly gunzTarPerm modified mode [ 'test/requestset_test.js', 438, 420 ]
+835 silly lockFile 49a8e81e--npm-cache-poolee-0-4-11-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package
+836 silly lockFile 49a8e81e--npm-cache-poolee-0-4-11-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package
+837 silly lockFile 038b552c--cache-poolee-0-4-11-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+838 silly lockFile 038b552c--cache-poolee-0-4-11-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+839 verbose chmod C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz 644
+840 silly chown skipping for windows C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+841 silly lockFile b624f6f7-mjs-org-poolee-poolee-0-4-11-tgz https://registry.npmjs.org/poolee/-/poolee-0.4.11.tgz
+842 silly lockFile b624f6f7-mjs-org-poolee-poolee-0-4-11-tgz https://registry.npmjs.org/poolee/-/poolee-0.4.11.tgz
+843 silly lockFile 02e4392a-poolee-0-4-11 poolee@0.4.11
+844 silly lockFile 02e4392a-poolee-0-4-11 poolee@0.4.11
+845 silly lockFile 66add469-poolee-0-4-8 poolee@~0.4.8
+846 silly lockFile 66add469-poolee-0-4-8 poolee@~0.4.8
+847 http 200 https://registry.npmjs.org/protobuf.js/-/protobuf.js-0.0.17.tgz
+848 verbose tar unpack C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\tmp.tgz
+849 silly lockFile f63b0323-26714-0-5674096078146249-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\package
+850 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\f63b0323-26714-0-5674096078146249-package.lock
+851 silly lockFile 4e60976a-26714-0-5674096078146249-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\tmp.tgz
+852 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\tmp.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\4e60976a-26714-0-5674096078146249-tmp-tgz.lock
+853 silly gunzTarPerm modes [ '755', '644' ]
+854 silly gunzTarPerm extractEntry package.json
+855 silly gunzTarPerm extractEntry .npmignore
+856 silly gunzTarPerm extractEntry README.md
+857 silly gunzTarPerm extractEntry index.js
+858 silly gunzTarPerm extractEntry .jshintignore
+859 silly gunzTarPerm extractEntry .jshintrc
+860 silly gunzTarPerm extractEntry riak.proto
+861 silly gunzTarPerm extractEntry riak_kv.proto
+862 silly lockFile f63b0323-26714-0-5674096078146249-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\package
+863 silly lockFile f63b0323-26714-0-5674096078146249-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\package
+864 silly lockFile 4e60976a-26714-0-5674096078146249-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\tmp.tgz
+865 silly lockFile 4e60976a-26714-0-5674096078146249-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\tmp.tgz
+866 verbose tar pack [ 'C:\\Users\\GustavoRPS\\AppData\\Roaming\\npm-cache\\protobuf.js\\0.0.17\\package.tgz',
+866 verbose tar pack   'C:\\Users\\GUSTAV~1\\AppData\\Local\\Temp\\npm-5776-KTuV3gF5\\1400386926714-0.5674096078146249\\package' ]
+867 verbose tarball C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+868 verbose folder C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\package
+869 silly lockFile f63b0323-26714-0-5674096078146249-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\package
+870 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\f63b0323-26714-0-5674096078146249-package.lock
+871 silly lockFile 5b71e7a6-e-protobuf-js-0-0-17-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+872 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\5b71e7a6-e-protobuf-js-0-0-17-package-tgz.lock
+873 silly lockFile f63b0323-26714-0-5674096078146249-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\package
+874 silly lockFile f63b0323-26714-0-5674096078146249-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386926714-0.5674096078146249\package
+875 silly lockFile 5b71e7a6-e-protobuf-js-0-0-17-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+876 silly lockFile 5b71e7a6-e-protobuf-js-0-0-17-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+877 silly lockFile c97b9038-cache-protobuf-js-0-0-17-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package
+878 verbose lock C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c97b9038-cache-protobuf-js-0-0-17-package.lock
+879 silly lockFile c97b9038-cache-protobuf-js-0-0-17-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package
+880 silly lockFile c97b9038-cache-protobuf-js-0-0-17-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package
+881 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+882 silly lockFile 425c5646-cache-protobuf-js-0-0-17-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package
+883 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\425c5646-cache-protobuf-js-0-0-17-package.lock
+884 silly lockFile 5b71e7a6-e-protobuf-js-0-0-17-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+885 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\5b71e7a6-e-protobuf-js-0-0-17-package-tgz.lock
+886 silly gunzTarPerm modes [ '755', '644' ]
+887 silly gunzTarPerm extractEntry package.json
+888 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+889 silly gunzTarPerm extractEntry .npmignore
+890 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+891 silly gunzTarPerm extractEntry README.md
+892 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+893 silly gunzTarPerm extractEntry index.js
+894 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+895 silly gunzTarPerm extractEntry .jshintignore
+896 silly gunzTarPerm modified mode [ '.jshintignore', 438, 420 ]
+897 silly gunzTarPerm extractEntry .jshintrc
+898 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+899 silly gunzTarPerm extractEntry riak.proto
+900 silly gunzTarPerm modified mode [ 'riak.proto', 438, 420 ]
+901 silly gunzTarPerm extractEntry riak_kv.proto
+902 silly gunzTarPerm modified mode [ 'riak_kv.proto', 438, 420 ]
+903 silly lockFile 425c5646-cache-protobuf-js-0-0-17-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package
+904 silly lockFile 425c5646-cache-protobuf-js-0-0-17-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package
+905 silly lockFile 5b71e7a6-e-protobuf-js-0-0-17-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+906 silly lockFile 5b71e7a6-e-protobuf-js-0-0-17-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+907 verbose chmod C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz 644
+908 silly chown skipping for windows C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+909 silly lockFile 352a4c13-otobuf-js-protobuf-js-0-0-17-tgz https://registry.npmjs.org/protobuf.js/-/protobuf.js-0.0.17.tgz
+910 silly lockFile 352a4c13-otobuf-js-protobuf-js-0-0-17-tgz https://registry.npmjs.org/protobuf.js/-/protobuf.js-0.0.17.tgz
+911 silly lockFile d3cca709-protobuf-js-0-0-17 protobuf.js@0.0.17
+912 silly lockFile d3cca709-protobuf-js-0-0-17 protobuf.js@0.0.17
+913 silly resolved [ { name: 'xml',
+913 silly resolved     version: '0.0.7',
+913 silly resolved     description: 'Fast and simple xml generator. Supports attributes, CDATA, etc. Includes tests and examples.',
+913 silly resolved     homepage: 'http://github.com/dylang/node-xml',
+913 silly resolved     keywords: [ 'xml', 'create', 'builder' ],
+913 silly resolved     author: { name: 'Dylan Greene', url: 'https://github.com/dylang' },
+913 silly resolved     contributors: [ [Object], [Object], [Object] ],
+913 silly resolved     repository: { type: 'git', url: 'http://github.com/dylang/node-xml' },
+913 silly resolved     bugs: { url: 'http://github.com/dylang/node-xml/issues' },
+913 silly resolved     devDependencies: { nodeunit: '*', logging: '*' },
+913 silly resolved     scripts: { test: 'nodeunit test' },
+913 silly resolved     main: 'index.js',
+913 silly resolved     engines: { node: '>=0.4.0' },
+913 silly resolved     licenses: [ [Object] ],
+913 silly resolved     readme: '# XML for Node\n\n  Fast and simple Javascript-based XML generator/builder for Node projects.\n\n## Install\n\n   $ npm install xml\n\n## Examples\n\n There are examples in the examples directory.\n\n## Tests\n\n Use [nodeunit](https://github.com/caolan/nodeunit) to run the tests.\n\n    $ npm install nodeunit\n    $ nodeunit test\n\nEverything should pass:\n\n    test\n    ✔ empty\n    ✔ simple\n    ✔ deep\n    ✔ indent\n    ✔ attributes\n    ✔ cdata\n    ✔ encoding\n    ✔ stream\n\n    OK: 33 assertions (7ms)\n\n## API\n    XML(object, [indent || options])\n\n  * `object` See Usage for how this can work.\n  * `indent` Falsy value: No indent or line breaks (default). True: 4 spaces. `\\t`: Single tab. `  `: Two spaces.  Etc.\n  * `options` \'indent\': same as `indent`, \'stream\': force result to be a stream\n\n## Examples\n\n    var XML = require(\'xml\');\n\n**Simple Example**\n\n    var example1 = [ { url: \'http://www.google.com/search?aq=f&sourceid=chrome&ie=UTF-8&q=opower\' } ];\n    console.log(XML(example1));\n    //<url>http://www.google.com/search?aq=f&amp;sourceid=chrome&amp;ie=UTF-8&amp;q=opower</url>\n\n**Example with attributes**\n\n    var example2 = [ { url: { _attr: { hostname: \'www.google.com\', path: \'/search?aq=f&sourceid=chrome&ie=UTF-8&q=opower\' }  } } ];\n    console.log(XML(example2));\n    //<url hostname="www.google.com" path="/search?aq=f&amp;sourceid=chrome&amp;ie=UTF-8&amp;q=opower"/>\n\n**Example with array of same-named elements and nice formating**\n\n    var example3 = [ { toys: [ { toy: \'Transformers\' } , { toy: \'GI Joe\' }, { toy: \'He-man\' } ] } ];\n    console.log(XML(example3));\n    //<toys><toy>Transformers</toy><toy>GI Joe</toy><toy>He-man</toy></toys>\n    console.log(XML(example3, true));\n    /*\n    <toys>\n        <toy>Transformers</toy>\n        <toy>GI Joe</toy>\n        <toy>He-man</toy>\n    </toys>\n    */\n\n**More complex example**\n\n    var example4 = [ { toys: [ { _attr: { decade: \'80s\', locale: \'US\'} }, { toy: \'Transformers\' } , { toy: \'GI Joe\' }, { toy: \'He-man\' } ] } ];\n    console.log(XML(example4, true));\n    /*\n    <toys decade="80s" locale="US">\n        <toy>Transformers</toy>\n        <toy>GI Joe</toy>\n        <toy>He-man</toy>\n    </toys>\n    */\n\n**Even more complex example**\n\n    var example5 = [ { toys: [ { _attr: { decade: \'80s\', locale: \'US\'} }, { toy: \'Transformers\' } , { toy: [ { _attr: { knowing: \'half the battle\' } }, \'GI Joe\'] }, { toy: [ { name: \'He-man\' }, { description: { _cdata: \'<strong>Master of the Universe!</strong>\'} } ] } ] } ];\n    console.log(XML(example5, true));\n    /*\n    <toys><toy>Transformers</toy><toy>GI Joe</toy><toy>He-man</toy></toys>\n    <toys>\n        <toy>Transformers</toy>\n        <toy>GI Joe</toy>\n        <toy>He-man</toy>\n    </toys>\n    <toys decade="80s" locale="US">\n        <toy>Transformers</toy>\n        <toy>GI Joe</toy>\n        <toy>He-man</toy>\n    </toys>\n    <toys decade="80s" locale="US">\n        <toy>Transformers</toy>\n        <toy knowing="half the battle">\n            GI Joe\n        </toy>\n        <toy>\n            <name>He-man</name>\n            <description><![CDATA[<strong>Master of the Universe!</strong>]]></description>\n        </toy>\n    </toys>\n    */\n\n**Stream Example**\n\n    var elem = XML.Element({ _attr: { decade: \'80s\', locale: \'US\'} });\n    var xml = XML({ toys: elem }, true);\n    xml.on(\'data\', function (chunk) {console.log("data:", chunk)});\n    elem.push({ toy: \'Transformers\' });\n    elem.push({ toy: \'GI Joe\' });\n    elem.push({ toy: [{name:\'He-man\'}] });\n    elem.close();\n\n    /*\n    data: <toys decade="80s" locale="US">\n    data:     <toy>Transformers</toy>\n    data:     <toy>GI Joe</toy>\n    data:     <toy>\n            <name>He-man</name>\n        </toy>\n    data: </toys>\n    */\n\n\n## Keywords\n\n * `_attr`: set attributes using a hash of key/value pairs.\n * `_cdata`: Value of _cdata is wrapped in xml CDATA so the data does not need to be escaped.\n\n\n# Contributing\n\nContributions to the project are welcome. Feel free to fork and improve. I accept pull requests and issues,\nespecially when tests are included.\n\n# License\n\n(The MIT License)\n\nCopyright (c) 2011 Dylan Greene <dylang@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+913 silly resolved     readmeFilename: 'readme.md',
+913 silly resolved     _id: 'xml@0.0.7',
+913 silly resolved     dist: { shasum: '234ddce10cd947150696896d7adb321f5b61bf7c' },
+913 silly resolved     _from: 'xml@0.0.7',
+913 silly resolved     _resolved: 'https://registry.npmjs.org/xml/-/xml-0.0.7.tgz' },
+913 silly resolved   { name: 'butils',
+913 silly resolved     version: '0.1.0',
+913 silly resolved     description: 'helper functions to make buffers faster',
+913 silly resolved     main: 'index.js',
+913 silly resolved     scripts: { test: 'make test-cov' },
+913 silly resolved     repository: { type: 'git', url: 'git://github.com/nlf/node-butils.git' },
+913 silly resolved     keywords: [ 'buffer', 'ctype' ],
+913 silly resolved     author: { name: 'Nathan LaFreniere', email: 'quitlahok@gmail.com' },
+913 silly resolved     license: 'MIT',
+913 silly resolved     devDependencies: { audit: '0.0.6', 'precommit-hook': '', lab: '^3.0.0' },
+913 silly resolved     readme: 'butils\n------\n###Bufferwise binary operations\n - getBit(buffer, offset) returns true or false\n - setBit(buffer, offset, boolean) returns the changed byte\n - XOR(buffer, buffer2) returns the modifed first buffer\n - OR(buffer, buffer2) returns the modifed first buffer\n - AND(buffer, buffer2) return the modifed first buffer\n - NOT(buffer) return the modifed buffer\n - EQUAL(buffer, buffer2) returns a boolean\n - leftShift(buffer, offset) returns a NEW buffer\n - rightShift(buffer, offset) returns a NEW buffer\n - signedRightShift(buffer, offset) returns a NEW buffer\n\n\nThese are some helper functions that appear to be significantly faster than core Buffer manipulation functions.\n\nFunctions included\n\n* readInt(buffer, offset) -- (buffer.readInt8(offset))\n* writeInt(buffer, int, offset) -- (buffer.writeInt8(int, offset))\n* readInt32(buffer, offset) -- (buffer.readUInt32BE(offset))\n* writeInt32(buffer, int, offset) -- (buffer.writeUInt32BE(int, offset))\n* readString(buffer, start, end) -- (buffer.toString(start, end))\n* writeString(buffer, str, offset) -- (Buffer.write(str, \'utf8\', offset))\n* readVarint(buffer, offset) -- (no equivalent)\n* writeVarint(buffer, int, offset) -- (no equivalent)\n\nNote that the Int32 functions are currently unsigned and big endian only, though I\'d happily accept pull requests to add more functionality.\n\nBenchmark\n=========\n\n100,000,000 iterations of each function. (see bench.js)\n\n* Buffer#writeInt8: 1225ms\n* butils#writeInt: 166ms\n* \n* Buffer#readInt8: 761ms\n* butils#readInt: 164ms\n* \n* Buffer#writeUInt32BE: 1544ms\n* butils#writeInt32: 257ms\n* \n* Buffer#readUInt32BE: 1525ms\n* butils#readInt32: 323ms\n* \n* Buffer#write: 45101ms\n* butils#writeString: 2509ms\n* \n* Buffer#toString: 17505ms\n* butils#readString: 7340ms\n* \n* butils#writeVarint: 1264ms\n* \n* butils#readVarint: 4777ms\n',
+913 silly resolved     readmeFilename: 'README.md',
+913 silly resolved     bugs: { url: 'https://github.com/nlf/node-butils/issues' },
+913 silly resolved     homepage: 'https://github.com/nlf/node-butils',
+913 silly resolved     _id: 'butils@0.1.0',
+913 silly resolved     dist: { shasum: '6022c68e6310abeb7801a85e11c442ac9c1f0d3a' },
+913 silly resolved     _from: 'butils@',
+913 silly resolved     _resolved: 'https://registry.npmjs.org/butils/-/butils-0.1.0.tgz' },
+913 silly resolved   { name: 'riakpbc',
+913 silly resolved     version: '0.0.12',
+913 silly resolved     description: 'a very rough and basic riak protobuf client',
+913 silly resolved     main: 'index.js',
+913 silly resolved     dependencies: { 'protobuf.js': '>=0.0.17', butils: '' },
+913 silly resolved     devDependencies: { nodeunit: '' },
+913 silly resolved     scripts: { test: 'node test' },
+913 silly resolved     repository: { type: 'git', url: 'git://github.com:nlf/riakpbc.git' },
+913 silly resolved     keywords: [ 'riak', 'pbc', 'protobuf' ],
+913 silly resolved     author:
+913 silly resolved      { name: 'Nathan',
+913 silly resolved        email: 'quitlahok@gmail.com',
+913 silly resolved        url: 'https://github.com/nlf' },
+913 silly resolved     license: 'MIT',
+913 silly resolved     readme: 'RiakPBC is a very low level driver for Riak 1.2 over the Protocol Buffers Client interface.\n\nAll of the API methods documented at [basho docs](http://docs.basho.com/riak/latest/references/apis/protocol-buffers/) are implemented.\n\nFor usage, see test/spec.js\n',
+913 silly resolved     readmeFilename: 'README.md',
+913 silly resolved     bugs: { url: 'https://github.com/nlf/riakpbc/issues' },
+913 silly resolved     homepage: 'https://github.com/nlf/riakpbc',
+913 silly resolved     _id: 'riakpbc@0.0.12',
+913 silly resolved     dist: { shasum: '59c62bb0487f140cbc4295bf78505e8ec2b528c9' },
+913 silly resolved     _from: 'riakpbc@0.0.12',
+913 silly resolved     _resolved: 'https://registry.npmjs.org/riakpbc/-/riakpbc-0.0.12.tgz' },
+913 silly resolved   { name: 'poolee',
+913 silly resolved     version: '0.4.11',
+913 silly resolved     description: 'HTTP pool and load balancer',
+913 silly resolved     homepage: 'http://github.com/dannycoates/poolee',
+913 silly resolved     author: { name: 'Danny Coates', email: 'dannycoates@gmail.com' },
+913 silly resolved     keywords: [ 'pool', 'http', 'retry', 'health', 'load balancer' ],
+913 silly resolved     repository: { type: 'git', url: 'http://github.com/dannycoates/poolee.git' },
+913 silly resolved     engines: { node: '>=0.6.0' },
+913 silly resolved     dependencies: { 'keep-alive-agent': '*' },
+913 silly resolved     scripts: { test: 'mocha -R spec -t 6000 test/*_test.js' },
+913 silly resolved     devDependencies: { mocha: '*' },
+913 silly resolved     readme: '# poolee\n\nHTTP pool and load balancer for node.\n\n[![Build Status](https://travis-ci.org/dannycoates/poolee.png)](https://travis-ci.org/dannycoates/poolee)\n\n# Example\n\n```javascript\n\nvar Pool = require("poolee")\nvar http = require("http")\n\nvar servers =\n  ["127.0.0.1:8886"\n  ,"127.0.0.1:8887"\n  ,"127.0.0.1:8888"\n  ,"127.0.0.1:8889"]\n\nvar postData = \'{"name":"Danny Coates"}\'\n\nvar pool = new Pool(http, servers, options)\n\npool.request(\n  { method: "PUT"\n  , path: "/users/me"\n  }\n, postData\n, function (error, response, body) {\n    if (error) {\n      console.error(error.message)\n      return\n    }\n    if(response.statusCode === 201) {\n      console.log("put succeeded")\n    }\n    else {\n      console.log(response.statusCode)\n      console.log(body)\n    }\n  }\n)\n```\n\n---\n\n# API\n\n## Pool\n\n### new\n\n```javascript\nvar Pool = require(\'poolee\')\n//...\n\nvar pool = new Pool(\n  http                     // the http module to use (require(\'http\') or require(\'https\'))\n  ,\n  [ "127.0.0.1:1337"       // array of endpoints in "host:port" form\n  , "127.0.0.1:1338"\n  ]\n  ,                        // options\n  { maxPending: 1000       // maximum number of outstanding request to allow\n  , maxSockets: 20        // max sockets per endpoint Agent\n  , timeout: 60000         // request timeout in ms\n  , resolution: 1000       // timeout check interval (see below)\n  , keepAlive: false       // use an alternate Agent that does http keep-alive properly\n  , ping: undefined        // health check url\n  , pingTimeout: 2000      // ping timeout in ms\n  , retryFilter: undefined // see below\n  , retryDelay: 20         // see below\n  , maxRetries: 5          // see below\n  , name: undefined        // optional string\n  , agentOptions: undefined// an object for passing options directly to the Http Agent\n  }\n)\n```\n\n###### maxPending\n\nOnce this threshold is reached, requests will return an error to the callback as a\nsignal to slow down the rate of requests.\n\n###### resolution\n\nPending requests have their timeouts checked at this rate. If your timeout is 60000\nand resolution is 1000, the request will timeout no later than 60999\n\n###### keepAlive\n\nThe default http Agent does keep-alive in a stupid way. If you want it to work\nhow you\'d expect it to set this to true.\n\n###### retryFilter\n\nAll valid http responses aren\'t necessarily a "success". This function lets you\ncheck the response before calling the request callback. Returning a "truthy" value\nwill retry the request.\n\nFor instance, we may want to always retry 500 responses by default:\n```javascript\noptions.retryFilter = function (\n    options  // the request.options\n  , response // the http response object\n  , body     // the response body\n  ) {\n  return response.statusCode === 500\n}\n```\n\nIf the returned value is `true` the next attempt will be delayed using exponential backoff;\nif its `Number` it will delay the next attempt by that many ms (useful for `Retry-After` headers)\n\n###### retryDelay\n\nPool uses exponential backoff when retrying requests. This value is a scaling factor of the\ntime (ms) to wait. Here\'s how it works:\n```javascript\nMath.random() * Math.pow(2, attemptNumber) * retryDelay\n```\nIf `retryDelay` is 20, attemptNumber 1 (the first retry) will delay at most 40ms\n\n###### maxRetries\n\nThe maximum number of attempts to make after the first request fails. This only\ntakes effect if maxRetries < pool size.\n\n###### agentOptions\n\nThese options are passed directly to the underlying Agents used in the pool. This\nis nice for passing options like `cert` and `key` that are required for client certificates.\n\n###### ping\n\nWhen an endpoint is unresponsive the pool will not use it for requests. The ping\nurl gives a downed endpoint a way to rejoin the pool. If an endpoint is marked unhealthy\nand a ping url is given, the endpoint will make requests to its ping url until it gets\na 200 response, based on the `resolution` time.\n\nIf the ping url is undefined, the endpoint will never be marked unhealthy.\n\n\n### pool.request\n\nAn http request. The pool sends the request to one of it\'s endpoints. If it\nfails, the pool may retry the request on other endpoints until it succeeds or\nreaches `options.attempts` number of tries. *When `data` is a Stream, only 1\nattempt will be made*\n\n###### Usage\n\n\nThe first argument may be a url path.\nIf the callback has 3 arguments the full response body will be returned\n\n```javascript\npool.request(\'/users/me\', function (error, response, body) {})\n```\n\nThe first argument may be an options object.\nHere\'s the default values:\n\n```javascript\npool.request(\n  { path: undefined        // the request path (required)\n  , method: \'GET\'\n  , data: undefined        // request body, may be a string, buffer, or stream\n  , headers: {}            // extra http headers to send\n  , retryFilter: undefined // see below\n  , attempts: pool.length  // or at least 2, at most options.maxRetries + 1\n  , retryDelay: 20         // retries wait with exponential backoff times this number of ms\n  , timeout: 60000         // ms to wait before timing out the request\n  , encoding: \'utf8\'       // response body encoding\n  , stream: false          // stream instead of buffer response body\n  }\n  ,\n  function (error, response, body) {}\n)\n```\n\nThe request body may be the second argument, instead of options.data (more\nuseful with `pool.post` and `pool.put`)\n\n```javascript\npool.request(\n  { path: \'/foo\' }\n  , \'hi there\'\n  , function (error, response, body) {}\n)\n```\n\nA callback with 2 arguments will stream the response and not buffer the\nresponse body.\n\n```javascript\npool.request(\'/foo\', function (error, response) {\n  response.pipe(somewhere)\n})\n```\n\n### pool.get\n\nJust a synonym for `request`\n\n### pool.put\n\nSame arguments as `request` that sets `options.method = \'PUT\'`. Nice for\nputting :)\n\n```javascript\npool.put(\'/tweet/me\', \'Hello World!\', function (error, response) {})\n```\n\n### pool.post\n\nSame arguments as `request` that sets `options.method = \'POST\'`\n\n### pool.del\n\nSame arguments as `request` that sets `options.method = \'DELETE\'`\n\n### pool.addNode\n\nAdds a node to the pool given its hostname as a string. The node\nwill start in the healthy state.\n\n```javascript\npool.addNode("127.0.0.1:8890");\n```\n\n### pool.removeNode\n\nRemoves a node to the pool given its hostname as a string. Note\nthat in the case of hosts with duplicate names, all instances of the\nspecified name will be removed from the pool.\n\n```javascript\npool.removeNode("127.0.0.1:8890");\n```\n\n### Events\n\n##### timing\n\nEmits the request `duration` and `options` after each request\n\n##### retrying\n\nEmits the `error` of why a request is being retried\n\n##### timeout\n\nEmits the `request` when a request times out\n\n##### health\n\nEmits the `endpoint` when a node changes state between healthy/unhealthy\n',
+913 silly resolved     readmeFilename: 'readme.md',
+913 silly resolved     bugs: { url: 'https://github.com/dannycoates/poolee/issues' },
+913 silly resolved     _id: 'poolee@0.4.11',
+913 silly resolved     dist: { shasum: 'd88cfbabbad4fc130c72b4bfd48c23c38c8bfa47' },
+913 silly resolved     _from: 'poolee@~0.4.8',
+913 silly resolved     _resolved: 'https://registry.npmjs.org/poolee/-/poolee-0.4.11.tgz' },
+913 silly resolved   { name: 'protobuf.js',
+913 silly resolved     version: '0.0.17',
+913 silly resolved     description: 'a pure javascript protocol buffer encoding implementation, written specifically for riak',
+913 silly resolved     main: 'index.js',
+913 silly resolved     dependencies:
+913 silly resolved      { butils: '',
+913 silly resolved        wtf8: 'https://github.com/lautis/wtf8/tarball/master' },
+913 silly resolved     repository: { type: 'git', url: 'git://github.com/nlf/protobuf.js' },
+913 silly resolved     keywords: [ 'protobuf', 'protocol', 'buffer', 'encode' ],
+913 silly resolved     author: { name: 'Nathan LaFreniere', email: 'quitlahok@gmail.com' },
+913 silly resolved     license: 'MIT',
+913 silly resolved     readme: 'Protobuf.js\n-----------\n\nThis is an extremely lightweight, stripped down, ugly implementation of protocol buffers written specifically for use in making a Riak library. As such, it lacks support for many of the data types, and handles a few Riak specific fields in special ways (vclocks, for one). I will happily accept pull requests to make it more compatible with the full spec.\n\nWhat it does:\n=============\n\n* parses .proto files to build a schema (including imports) in a very very rough way\n* encodes objects to buffers\n* decodes buffers to objects\n* supports the string/bytes and varint types\n\nWhat it does not do:\n====================\n\n* have full support for every directive in .proto files\n* have support for any types other than varint or string/bytes\n* make your breakfast\n\n\nUsage\n=====\n\n```javascript\nvar protobuf = require(\'protobuf.js\'),\n    translator = protobuf.loadSchema(\'./riak_kv.proto\');\n\nvar msg = translator.encode(\'RpbGetReq\', { bucket: \'test\', key: \'test\' });\n//msg will *only* contain the protobuf encoded message, *NOT* the full riak packet\n\nvar decoded = translator.decode(\'RpbGetResp\', responsePacket);\n//again, this will *only* decode the protobuf message. you have to remove the riak header yourself\n```\n',
+913 silly resolved     readmeFilename: 'README.md',
+913 silly resolved     bugs: { url: 'https://github.com/nlf/protobuf.js/issues' },
+913 silly resolved     homepage: 'https://github.com/nlf/protobuf.js',
+913 silly resolved     _id: 'protobuf.js@0.0.17',
+913 silly resolved     dist: { shasum: '7c256509a7b3cb41227da145f9c9fe45d691d59b' },
+913 silly resolved     _from: 'protobuf.js@0.0.17',
+913 silly resolved     _resolved: 'https://registry.npmjs.org/protobuf.js/-/protobuf.js-0.0.17.tgz' } ]
+914 info install xml@0.0.7 into D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js
+915 info install butils@0.1.0 into D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js
+916 info install riakpbc@0.0.12 into D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js
+917 info install poolee@0.4.11 into D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js
+918 info install protobuf.js@0.0.17 into D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js
+919 info installOne xml@0.0.7
+920 info installOne butils@0.1.0
+921 info installOne riakpbc@0.0.12
+922 info installOne poolee@0.4.11
+923 info installOne protobuf.js@0.0.17
+924 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\xml unbuild
+925 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\butils unbuild
+926 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\riakpbc unbuild
+927 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee unbuild
+928 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js unbuild
+929 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+930 silly lockFile 4b3b2c6e-modules-riak-js-node-modules-xml tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\xml
+931 verbose lock tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\xml C:\Users\GustavoRPS\AppData\Roaming\npm-cache\4b3b2c6e-modules-riak-js-node-modules-xml.lock
+932 silly lockFile 49367ce7--npm-cache-xml-0-0-7-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+933 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\49367ce7--npm-cache-xml-0-0-7-package-tgz.lock
+934 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+935 silly lockFile b18a7160-ules-riak-js-node-modules-butils tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\butils
+936 verbose lock tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\butils C:\Users\GustavoRPS\AppData\Roaming\npm-cache\b18a7160-ules-riak-js-node-modules-butils.lock
+937 silly lockFile 532069d8-m-cache-butils-0-1-0-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+938 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\532069d8-m-cache-butils-0-1-0-package-tgz.lock
+939 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+940 silly lockFile 011d9ac5-les-riak-js-node-modules-riakpbc tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\riakpbc
+941 verbose lock tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\riakpbc C:\Users\GustavoRPS\AppData\Roaming\npm-cache\011d9ac5-les-riak-js-node-modules-riakpbc.lock
+942 silly lockFile b946d1a7-cache-riakpbc-0-0-12-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+943 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\b946d1a7-cache-riakpbc-0-0-12-package-tgz.lock
+944 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+945 silly lockFile 1f8ee5b5-ules-riak-js-node-modules-poolee tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee
+946 verbose lock tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee C:\Users\GustavoRPS\AppData\Roaming\npm-cache\1f8ee5b5-ules-riak-js-node-modules-poolee.lock
+947 silly lockFile 038b552c--cache-poolee-0-4-11-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+948 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\038b552c--cache-poolee-0-4-11-package-tgz.lock
+949 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+950 silly lockFile 62ba9061-riak-js-node-modules-protobuf-js tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js
+951 verbose lock tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js C:\Users\GustavoRPS\AppData\Roaming\npm-cache\62ba9061-riak-js-node-modules-protobuf-js.lock
+952 silly lockFile 5b71e7a6-e-protobuf-js-0-0-17-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+953 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\5b71e7a6-e-protobuf-js-0-0-17-package-tgz.lock
+954 silly gunzTarPerm modes [ '755', '644' ]
+955 silly gunzTarPerm modes [ '755', '644' ]
+956 silly gunzTarPerm modes [ '755', '644' ]
+957 silly gunzTarPerm modes [ '755', '644' ]
+958 silly gunzTarPerm modes [ '755', '644' ]
+959 silly gunzTarPerm extractEntry package.json
+960 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+961 silly gunzTarPerm extractEntry package.json
+962 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+963 silly gunzTarPerm extractEntry package.json
+964 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+965 silly gunzTarPerm extractEntry package.json
+966 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+967 silly gunzTarPerm extractEntry package.json
+968 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+969 silly gunzTarPerm extractEntry LICENSE
+970 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+971 silly gunzTarPerm extractEntry index.js
+972 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+973 silly gunzTarPerm extractEntry .npmignore
+974 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+975 silly gunzTarPerm extractEntry README.md
+976 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+977 silly gunzTarPerm extractEntry .npmignore
+978 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+979 silly gunzTarPerm extractEntry README.md
+980 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+981 silly gunzTarPerm extractEntry .npmignore
+982 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+983 silly gunzTarPerm extractEntry LICENSE
+984 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+985 silly gunzTarPerm extractEntry .npmignore
+986 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+987 silly gunzTarPerm extractEntry README.md
+988 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+989 silly gunzTarPerm extractEntry bench.js
+990 silly gunzTarPerm modified mode [ 'bench.js', 438, 420 ]
+991 silly gunzTarPerm extractEntry index.js
+992 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+993 silly gunzTarPerm extractEntry .idea/.name
+994 silly gunzTarPerm modified mode [ '.idea/.name', 438, 420 ]
+995 silly gunzTarPerm extractEntry .idea/dictionaries/dylan.xml
+996 silly gunzTarPerm modified mode [ '.idea/dictionaries/dylan.xml', 438, 420 ]
+997 silly gunzTarPerm extractEntry index.js
+998 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+999 silly gunzTarPerm extractEntry test.js
+1000 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+1001 silly gunzTarPerm extractEntry index.js
+1002 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1003 silly gunzTarPerm extractEntry .travis.yml
+1004 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+1005 silly gunzTarPerm extractEntry index.js
+1006 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1007 silly gunzTarPerm extractEntry .jshintignore
+1008 silly gunzTarPerm modified mode [ '.jshintignore', 438, 420 ]
+1009 silly gunzTarPerm extractEntry .jshintignore
+1010 silly gunzTarPerm modified mode [ '.jshintignore', 438, 420 ]
+1011 silly gunzTarPerm extractEntry .jshintrc
+1012 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+1013 silly gunzTarPerm extractEntry .jshintignore
+1014 silly gunzTarPerm modified mode [ '.jshintignore', 438, 420 ]
+1015 silly gunzTarPerm extractEntry .jshintrc
+1016 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+1017 silly gunzTarPerm extractEntry .idea/encodings.xml
+1018 silly gunzTarPerm modified mode [ '.idea/encodings.xml', 438, 420 ]
+1019 silly gunzTarPerm extractEntry .idea/misc.xml
+1020 silly gunzTarPerm modified mode [ '.idea/misc.xml', 438, 420 ]
+1021 silly gunzTarPerm extractEntry lib/endpoint.js
+1022 silly gunzTarPerm modified mode [ 'lib/endpoint.js', 438, 420 ]
+1023 silly gunzTarPerm extractEntry lib/error.js
+1024 silly gunzTarPerm modified mode [ 'lib/error.js', 438, 420 ]
+1025 silly gunzTarPerm extractEntry lib/pinger.js
+1026 silly gunzTarPerm modified mode [ 'lib/pinger.js', 438, 420 ]
+1027 silly gunzTarPerm extractEntry lib/pool.js
+1028 silly gunzTarPerm modified mode [ 'lib/pool.js', 438, 420 ]
+1029 silly gunzTarPerm extractEntry lib/request_set.js
+1030 silly gunzTarPerm modified mode [ 'lib/request_set.js', 438, 420 ]
+1031 silly gunzTarPerm extractEntry readme.md
+1032 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+1033 silly gunzTarPerm extractEntry test/endpoint_test.js
+1034 silly gunzTarPerm modified mode [ 'test/endpoint_test.js', 438, 420 ]
+1035 silly gunzTarPerm extractEntry test/integration_test.js
+1036 silly gunzTarPerm modified mode [ 'test/integration_test.js', 438, 420 ]
+1037 silly gunzTarPerm extractEntry test/pool_test.js
+1038 silly gunzTarPerm modified mode [ 'test/pool_test.js', 438, 420 ]
+1039 silly gunzTarPerm extractEntry test/requestset_test.js
+1040 silly gunzTarPerm modified mode [ 'test/requestset_test.js', 438, 420 ]
+1041 silly gunzTarPerm extractEntry .jshintrc
+1042 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+1043 silly gunzTarPerm extractEntry riak.proto
+1044 silly gunzTarPerm modified mode [ 'riak.proto', 438, 420 ]
+1045 silly gunzTarPerm extractEntry spec/riak.proto
+1046 silly gunzTarPerm modified mode [ 'spec/riak.proto', 438, 420 ]
+1047 silly gunzTarPerm extractEntry spec/riak_kv.proto
+1048 silly gunzTarPerm modified mode [ 'spec/riak_kv.proto', 438, 420 ]
+1049 silly gunzTarPerm extractEntry test/spec.js
+1050 silly gunzTarPerm modified mode [ 'test/spec.js', 438, 420 ]
+1051 silly gunzTarPerm extractEntry .idea/modules.xml
+1052 silly gunzTarPerm modified mode [ '.idea/modules.xml', 438, 420 ]
+1053 silly gunzTarPerm extractEntry .idea/node-xml.iml
+1054 silly gunzTarPerm modified mode [ '.idea/node-xml.iml', 438, 420 ]
+1055 silly gunzTarPerm extractEntry Makefile
+1056 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+1057 silly gunzTarPerm extractEntry riak_kv.proto
+1058 silly gunzTarPerm modified mode [ 'riak_kv.proto', 438, 420 ]
+1059 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+1060 silly gunzTarPerm modified mode [ '.idea/scopes/scope_settings.xml', 438, 420 ]
+1061 silly gunzTarPerm extractEntry .idea/vcs.xml
+1062 silly gunzTarPerm modified mode [ '.idea/vcs.xml', 438, 420 ]
+1063 silly gunzTarPerm extractEntry test/index.js
+1064 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+1065 silly gunzTarPerm extractEntry .idea/workspace.xml
+1066 silly gunzTarPerm modified mode [ '.idea/workspace.xml', 438, 420 ]
+1067 silly gunzTarPerm extractEntry examples/examples.js
+1068 silly gunzTarPerm modified mode [ 'examples/examples.js', 438, 420 ]
+1069 silly gunzTarPerm extractEntry examples/server.js
+1070 silly gunzTarPerm modified mode [ 'examples/server.js', 438, 420 ]
+1071 silly gunzTarPerm extractEntry lib/util.js
+1072 silly gunzTarPerm modified mode [ 'lib/util.js', 438, 420 ]
+1073 silly gunzTarPerm extractEntry lib/xml.js
+1074 silly gunzTarPerm modified mode [ 'lib/xml.js', 438, 420 ]
+1075 silly gunzTarPerm extractEntry readme.md
+1076 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+1077 silly gunzTarPerm extractEntry test/test.js
+1078 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+1079 silly gunzTarPerm extractEntry test/nodemon-ignore
+1080 silly gunzTarPerm modified mode [ 'test/nodemon-ignore', 438, 420 ]
+1081 silly lockFile 62ba9061-riak-js-node-modules-protobuf-js tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js
+1082 silly lockFile 62ba9061-riak-js-node-modules-protobuf-js tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js
+1083 silly lockFile 5b71e7a6-e-protobuf-js-0-0-17-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+1084 silly lockFile 5b71e7a6-e-protobuf-js-0-0-17-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\protobuf.js\0.0.17\package.tgz
+1085 info preinstall protobuf.js@0.0.17
+1086 verbose readDependencies using package.json deps
+1087 silly lockFile 011d9ac5-les-riak-js-node-modules-riakpbc tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\riakpbc
+1088 silly lockFile 011d9ac5-les-riak-js-node-modules-riakpbc tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\riakpbc
+1089 verbose readDependencies using package.json deps
+1090 silly lockFile b946d1a7-cache-riakpbc-0-0-12-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+1091 silly lockFile b946d1a7-cache-riakpbc-0-0-12-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\riakpbc\0.0.12\package.tgz
+1092 silly lockFile b18a7160-ules-riak-js-node-modules-butils tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\butils
+1093 silly lockFile b18a7160-ules-riak-js-node-modules-butils tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\butils
+1094 silly lockFile 532069d8-m-cache-butils-0-1-0-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+1095 silly lockFile 532069d8-m-cache-butils-0-1-0-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\butils\0.1.0\package.tgz
+1096 info preinstall riakpbc@0.0.12
+1097 verbose readDependencies using package.json deps
+1098 verbose readDependencies using package.json deps
+1099 silly resolved []
+1100 verbose about to build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\riakpbc
+1101 info build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\riakpbc
+1102 verbose linkStuff [ false,
+1102 verbose linkStuff   false,
+1102 verbose linkStuff   false,
+1102 verbose linkStuff   'D:\\Repos\\Git\\api.brasil.io\\educacao\\src\\node_modules\\riak-js\\node_modules' ]
+1103 info linkStuff riakpbc@0.0.12
+1104 verbose linkBins riakpbc@0.0.12
+1105 verbose linkMans riakpbc@0.0.12
+1106 verbose rebuildBundles riakpbc@0.0.12
+1107 verbose cache add [ 'wtf8@https://github.com/lautis/wtf8/tarball/master', null ]
+1108 verbose cache add name=undefined spec="wtf8@https://github.com/lautis/wtf8/tarball/master" args=["wtf8@https://github.com/lautis/wtf8/tarball/master",null]
+1109 verbose parsed url { protocol: null,
+1109 verbose parsed url   slashes: null,
+1109 verbose parsed url   auth: null,
+1109 verbose parsed url   host: null,
+1109 verbose parsed url   port: null,
+1109 verbose parsed url   hostname: null,
+1109 verbose parsed url   hash: null,
+1109 verbose parsed url   search: null,
+1109 verbose parsed url   query: null,
+1109 verbose parsed url   pathname: 'wtf8@https://github.com/lautis/wtf8/tarball/master',
+1109 verbose parsed url   path: 'wtf8@https://github.com/lautis/wtf8/tarball/master',
+1109 verbose parsed url   href: 'wtf8@https://github.com/lautis/wtf8/tarball/master' }
+1110 info preinstall butils@0.1.0
+1111 info install riakpbc@0.0.12
+1112 verbose cache add name="wtf8" spec="https://github.com/lautis/wtf8/tarball/master" args=["wtf8","https://github.com/lautis/wtf8/tarball/master"]
+1113 verbose parsed url { protocol: 'https:',
+1113 verbose parsed url   slashes: true,
+1113 verbose parsed url   auth: null,
+1113 verbose parsed url   host: 'github.com',
+1113 verbose parsed url   port: null,
+1113 verbose parsed url   hostname: 'github.com',
+1113 verbose parsed url   hash: null,
+1113 verbose parsed url   search: null,
+1113 verbose parsed url   query: null,
+1113 verbose parsed url   pathname: '/lautis/wtf8/tarball/master',
+1113 verbose parsed url   path: '/lautis/wtf8/tarball/master',
+1113 verbose parsed url   href: 'https://github.com/lautis/wtf8/tarball/master' }
+1114 silly lockFile 11e1b5d1-b-com-lautis-wtf8-tarball-master https://github.com/lautis/wtf8/tarball/master
+1115 verbose lock https://github.com/lautis/wtf8/tarball/master C:\Users\GustavoRPS\AppData\Roaming\npm-cache\11e1b5d1-b-com-lautis-wtf8-tarball-master.lock
+1116 info postinstall riakpbc@0.0.12
+1117 verbose addRemoteTarball [ 'https://github.com/lautis/wtf8/tarball/master', null ]
+1118 verbose readDependencies using package.json deps
+1119 info retry fetch attempt 1 at 01:22:10
+1120 verbose fetch to= C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\tmp.tgz
+1121 verbose readDependencies using package.json deps
+1122 silly resolved []
+1123 verbose about to build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\butils
+1124 info build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\butils
+1125 verbose linkStuff [ false,
+1125 verbose linkStuff   false,
+1125 verbose linkStuff   false,
+1125 verbose linkStuff   'D:\\Repos\\Git\\api.brasil.io\\educacao\\src\\node_modules\\riak-js\\node_modules' ]
+1126 info linkStuff butils@0.1.0
+1127 verbose linkBins butils@0.1.0
+1128 verbose linkMans butils@0.1.0
+1129 verbose rebuildBundles butils@0.1.0
+1130 info install butils@0.1.0
+1131 http GET https://github.com/lautis/wtf8/tarball/master
+1132 info postinstall butils@0.1.0
+1133 silly lockFile 4b3b2c6e-modules-riak-js-node-modules-xml tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\xml
+1134 silly lockFile 4b3b2c6e-modules-riak-js-node-modules-xml tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\xml
+1135 silly lockFile 49367ce7--npm-cache-xml-0-0-7-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+1136 silly lockFile 49367ce7--npm-cache-xml-0-0-7-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\xml\0.0.7\package.tgz
+1137 info preinstall xml@0.0.7
+1138 verbose readDependencies using package.json deps
+1139 verbose readDependencies using package.json deps
+1140 silly resolved []
+1141 verbose about to build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\xml
+1142 info build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\xml
+1143 verbose linkStuff [ false,
+1143 verbose linkStuff   false,
+1143 verbose linkStuff   false,
+1143 verbose linkStuff   'D:\\Repos\\Git\\api.brasil.io\\educacao\\src\\node_modules\\riak-js\\node_modules' ]
+1144 info linkStuff xml@0.0.7
+1145 verbose linkBins xml@0.0.7
+1146 verbose linkMans xml@0.0.7
+1147 verbose rebuildBundles xml@0.0.7
+1148 info install xml@0.0.7
+1149 info postinstall xml@0.0.7
+1150 silly lockFile 1f8ee5b5-ules-riak-js-node-modules-poolee tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee
+1151 silly lockFile 1f8ee5b5-ules-riak-js-node-modules-poolee tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee
+1152 silly lockFile 038b552c--cache-poolee-0-4-11-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+1153 silly lockFile 038b552c--cache-poolee-0-4-11-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\poolee\0.4.11\package.tgz
+1154 info preinstall poolee@0.4.11
+1155 verbose readDependencies using package.json deps
+1156 verbose readDependencies using package.json deps
+1157 verbose cache add [ 'keep-alive-agent@*', null ]
+1158 verbose cache add name=undefined spec="keep-alive-agent@*" args=["keep-alive-agent@*",null]
+1159 verbose parsed url { protocol: null,
+1159 verbose parsed url   slashes: null,
+1159 verbose parsed url   auth: null,
+1159 verbose parsed url   host: null,
+1159 verbose parsed url   port: null,
+1159 verbose parsed url   hostname: null,
+1159 verbose parsed url   hash: null,
+1159 verbose parsed url   search: null,
+1159 verbose parsed url   query: null,
+1159 verbose parsed url   pathname: 'keep-alive-agent@*',
+1159 verbose parsed url   path: 'keep-alive-agent@*',
+1159 verbose parsed url   href: 'keep-alive-agent@*' }
+1160 verbose cache add name="keep-alive-agent" spec="*" args=["keep-alive-agent","*"]
+1161 verbose parsed url { protocol: null,
+1161 verbose parsed url   slashes: null,
+1161 verbose parsed url   auth: null,
+1161 verbose parsed url   host: null,
+1161 verbose parsed url   port: null,
+1161 verbose parsed url   hostname: null,
+1161 verbose parsed url   hash: null,
+1161 verbose parsed url   search: null,
+1161 verbose parsed url   query: null,
+1161 verbose parsed url   pathname: '*',
+1161 verbose parsed url   path: '*',
+1161 verbose parsed url   href: '*' }
+1162 verbose addNamed [ 'keep-alive-agent', '*' ]
+1163 verbose addNamed [ null, '*' ]
+1164 silly lockFile c84f05b2-keep-alive-agent keep-alive-agent@*
+1165 verbose lock keep-alive-agent@* C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c84f05b2-keep-alive-agent.lock
+1166 silly addNameRange { name: 'keep-alive-agent', range: '*', hasData: false }
+1167 verbose url raw keep-alive-agent
+1168 verbose url resolving [ 'https://registry.npmjs.org/', './keep-alive-agent' ]
+1169 verbose url resolved https://registry.npmjs.org/keep-alive-agent
+1170 info trying registry request attempt 1 at 01:22:11
+1171 http GET https://registry.npmjs.org/keep-alive-agent
+1172 http 200 https://registry.npmjs.org/keep-alive-agent
+1173 silly registry.get cb [ 200,
+1173 silly registry.get   { date: 'Sun, 18 May 2014 04:22:11 GMT',
+1173 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+1173 silly registry.get     etag: '"4Q39LMFIF2AGLNTN7YL49MNJR"',
+1173 silly registry.get     'content-type': 'application/json',
+1173 silly registry.get     via: '1.1 varnish',
+1173 silly registry.get     'cache-control': 'max-age=1',
+1173 silly registry.get     'content-length': '6089',
+1173 silly registry.get     'accept-ranges': 'bytes',
+1173 silly registry.get     age: '517',
+1173 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-jfk1024-JFK',
+1173 silly registry.get     'x-cache': 'MISS, MISS',
+1173 silly registry.get     'x-cache-hits': '0, 0',
+1173 silly registry.get     'x-timer': 'S1400386931.894621372,VS0,VS5,VE12,VE14',
+1173 silly registry.get     vary: 'Accept',
+1173 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1173 silly registry.get     connection: 'Keep-Alive' } ]
+1174 silly addNameRange number 2 { name: 'keep-alive-agent', range: '*', hasData: true }
+1175 silly addNameRange versions [ 'keep-alive-agent', [ '0.0.1' ] ]
+1176 verbose addNamed [ 'keep-alive-agent', '0.0.1' ]
+1177 verbose addNamed [ '0.0.1', '0.0.1' ]
+1178 silly lockFile e4e26cf8-keep-alive-agent-0-0-1 keep-alive-agent@0.0.1
+1179 verbose lock keep-alive-agent@0.0.1 C:\Users\GustavoRPS\AppData\Roaming\npm-cache\e4e26cf8-keep-alive-agent-0-0-1.lock
+1180 silly lockFile c3da0e27-agent-keep-alive-agent-0-0-1-tgz https://registry.npmjs.org/keep-alive-agent/-/keep-alive-agent-0.0.1.tgz
+1181 verbose lock https://registry.npmjs.org/keep-alive-agent/-/keep-alive-agent-0.0.1.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c3da0e27-agent-keep-alive-agent-0-0-1-tgz.lock
+1182 verbose addRemoteTarball [ 'https://registry.npmjs.org/keep-alive-agent/-/keep-alive-agent-0.0.1.tgz',
+1182 verbose addRemoteTarball   '44847ca394ce8d6b521ae85816bd64509942b385' ]
+1183 info retry fetch attempt 1 at 01:22:11
+1184 verbose fetch to= C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\tmp.tgz
+1185 http GET https://registry.npmjs.org/keep-alive-agent/-/keep-alive-agent-0.0.1.tgz
+1186 http 200 https://registry.npmjs.org/keep-alive-agent/-/keep-alive-agent-0.0.1.tgz
+1187 verbose tar unpack C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\tmp.tgz
+1188 silly lockFile c25197e4-31711-0-2970489664003253-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\package
+1189 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c25197e4-31711-0-2970489664003253-package.lock
+1190 silly lockFile 889a275d-31711-0-2970489664003253-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\tmp.tgz
+1191 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\tmp.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\889a275d-31711-0-2970489664003253-tmp-tgz.lock
+1192 silly gunzTarPerm modes [ '755', '644' ]
+1193 silly gunzTarPerm extractEntry package.json
+1194 silly gunzTarPerm extractEntry .npmignore
+1195 silly gunzTarPerm extractEntry README.md
+1196 silly gunzTarPerm extractEntry LICENSE
+1197 silly gunzTarPerm extractEntry index.js
+1198 silly gunzTarPerm extractEntry .jshintrc
+1199 silly gunzTarPerm extractEntry test/test.js
+1200 silly lockFile c25197e4-31711-0-2970489664003253-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\package
+1201 silly lockFile c25197e4-31711-0-2970489664003253-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\package
+1202 silly lockFile 889a275d-31711-0-2970489664003253-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\tmp.tgz
+1203 silly lockFile 889a275d-31711-0-2970489664003253-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\tmp.tgz
+1204 verbose tar pack [ 'C:\\Users\\GustavoRPS\\AppData\\Roaming\\npm-cache\\keep-alive-agent\\0.0.1\\package.tgz',
+1204 verbose tar pack   'C:\\Users\\GUSTAV~1\\AppData\\Local\\Temp\\npm-5776-KTuV3gF5\\1400386931711-0.2970489664003253\\package' ]
+1205 verbose tarball C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1206 verbose folder C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\package
+1207 silly lockFile c25197e4-31711-0-2970489664003253-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\package
+1208 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c25197e4-31711-0-2970489664003253-package.lock
+1209 silly lockFile c1338631-ep-alive-agent-0-0-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1210 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c1338631-ep-alive-agent-0-0-1-package-tgz.lock
+1211 silly lockFile c25197e4-31711-0-2970489664003253-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\package
+1212 silly lockFile c25197e4-31711-0-2970489664003253-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386931711-0.2970489664003253\package
+1213 silly lockFile c1338631-ep-alive-agent-0-0-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1214 silly lockFile c1338631-ep-alive-agent-0-0-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1215 silly lockFile 7439aa6e-e-keep-alive-agent-0-0-1-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package
+1216 verbose lock C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\7439aa6e-e-keep-alive-agent-0-0-1-package.lock
+1217 silly lockFile 7439aa6e-e-keep-alive-agent-0-0-1-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package
+1218 silly lockFile 7439aa6e-e-keep-alive-agent-0-0-1-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package
+1219 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1220 silly lockFile f72e4e4c-e-keep-alive-agent-0-0-1-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package
+1221 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\f72e4e4c-e-keep-alive-agent-0-0-1-package.lock
+1222 silly lockFile c1338631-ep-alive-agent-0-0-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1223 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c1338631-ep-alive-agent-0-0-1-package-tgz.lock
+1224 silly gunzTarPerm modes [ '755', '644' ]
+1225 silly gunzTarPerm extractEntry package.json
+1226 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1227 silly gunzTarPerm extractEntry .npmignore
+1228 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+1229 silly gunzTarPerm extractEntry README.md
+1230 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1231 silly gunzTarPerm extractEntry LICENSE
+1232 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1233 silly gunzTarPerm extractEntry index.js
+1234 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1235 silly gunzTarPerm extractEntry .jshintrc
+1236 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+1237 silly gunzTarPerm extractEntry test/test.js
+1238 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+1239 silly lockFile f72e4e4c-e-keep-alive-agent-0-0-1-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package
+1240 silly lockFile f72e4e4c-e-keep-alive-agent-0-0-1-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package
+1241 silly lockFile c1338631-ep-alive-agent-0-0-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1242 silly lockFile c1338631-ep-alive-agent-0-0-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1243 verbose chmod C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz 644
+1244 silly chown skipping for windows C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1245 silly lockFile c3da0e27-agent-keep-alive-agent-0-0-1-tgz https://registry.npmjs.org/keep-alive-agent/-/keep-alive-agent-0.0.1.tgz
+1246 silly lockFile c3da0e27-agent-keep-alive-agent-0-0-1-tgz https://registry.npmjs.org/keep-alive-agent/-/keep-alive-agent-0.0.1.tgz
+1247 silly lockFile e4e26cf8-keep-alive-agent-0-0-1 keep-alive-agent@0.0.1
+1248 silly lockFile e4e26cf8-keep-alive-agent-0-0-1 keep-alive-agent@0.0.1
+1249 silly lockFile c84f05b2-keep-alive-agent keep-alive-agent@*
+1250 silly lockFile c84f05b2-keep-alive-agent keep-alive-agent@*
+1251 silly resolved [ { name: 'keep-alive-agent',
+1251 silly resolved     version: '0.0.1',
+1251 silly resolved     description: 'a keep-alive agent for http and https',
+1251 silly resolved     contributors: [ [Object], [Object] ],
+1251 silly resolved     main: 'index.js',
+1251 silly resolved     scripts: { test: 'mocha -R spec test/*.js' },
+1251 silly resolved     repository:
+1251 silly resolved      { type: 'git',
+1251 silly resolved        url: 'git://github.com/ceejbot/keep-alive-agent.git' },
+1251 silly resolved     keywords: [ 'keep-alive', 'http', 'https', 'agent' ],
+1251 silly resolved     license: 'MIT',
+1251 silly resolved     devDependencies: { chai: '*', mocha: '*' },
+1251 silly resolved     readme: '# keep-alive-agent\n\nkeep-alive-agent is an HTTP connection pool agent for node.js that re-uses sockets. It is simpler than some agents that also solve this problem because it does not attempt to replace the Agent provided by node. If you want to re-use connections, use this agent. If you want the default node behavior, use the default global agent.\n\n## Usage\n\n__new KeepAliveAgent(*options-hash*)__\n\nCreate an instance of the agent, passing the options hash through to the node Agent constructor. These options are in turn passed along to `createConnection()`. The KeepAliveAgent constructor does not use the options itself. The option you are most likely to change is `maxSockets`, which defaults to 5.\n\nTo use the agent instance, set it in the `agent` field of the options passed to `http.request()` or `http.get()`. See the [http.request() documentation](http://nodejs.org/api/http.html#http_http_request_options_callback) for details.\n\n__new KeepAliveAgent.Secure(*options-hash*)__\n\nA keep-alive agent that creates tls sockets. Use it the same way you use the http agent.\n\n## Examples\n\n```javascript\nvar http = require(\'http\'),\n    KeepAliveAgent = require(\'keep-alive-agent\');\n\nvar getOptions = {\n    hostname: \'twitter.com\',\n    port: 80,\n    path: \'/dshaw\',\n    agent: new KeepAliveAgent(),\n};\nhttp.get(getOptions, function(response)\n{\n\tresponse.pipe(process.stdout);\n});\n```\n\nTo re-use secure connections, use the Secure keep-alive agent:\n\n```javascript\nvar https = require(\'https\'),\n    KeepAliveAgent = require(\'keep-alive-agent\');\n\nvar getOptions = {\n    hostname: \'www.duckduckgo.com\',\n    port: 443,\n    path: \'/?q=unicorns\',\n    agent: new KeepAliveAgent.Secure(),\n};\nhttps.get(getOptions, function(response)\n{\n\tresponse.pipe(process.stdout);\n});\n```\n\n## See Also\n\nFor other implementations, see [agentkeepalive](https://github.com/TBEDP/agentkeepalive) and the [request](https://github.com/mikeal/request) module\'s [ForeverAgent](https://github.com/mikeal/request/blob/master/forever.js).\n\n## Licence\n\nMIT.\n',
+1251 silly resolved     readmeFilename: 'README.md',
+1251 silly resolved     bugs: { url: 'https://github.com/ceejbot/keep-alive-agent/issues' },
+1251 silly resolved     homepage: 'https://github.com/ceejbot/keep-alive-agent',
+1251 silly resolved     _id: 'keep-alive-agent@0.0.1',
+1251 silly resolved     dist: { shasum: '899b96df10c981f0f91da4ba6002fc1ef895027f' },
+1251 silly resolved     _from: 'keep-alive-agent@*',
+1251 silly resolved     _resolved: 'https://registry.npmjs.org/keep-alive-agent/-/keep-alive-agent-0.0.1.tgz' } ]
+1252 info install keep-alive-agent@0.0.1 into D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee
+1253 info installOne keep-alive-agent@0.0.1
+1254 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee\node_modules\keep-alive-agent unbuild
+1255 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1256 silly lockFile c4e2f8fb-ee-node-modules-keep-alive-agent tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee\node_modules\keep-alive-agent
+1257 verbose lock tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee\node_modules\keep-alive-agent C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c4e2f8fb-ee-node-modules-keep-alive-agent.lock
+1258 silly lockFile c1338631-ep-alive-agent-0-0-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1259 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\c1338631-ep-alive-agent-0-0-1-package-tgz.lock
+1260 silly gunzTarPerm modes [ '755', '644' ]
+1261 silly gunzTarPerm extractEntry package.json
+1262 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1263 silly gunzTarPerm extractEntry .npmignore
+1264 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+1265 silly gunzTarPerm extractEntry README.md
+1266 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1267 silly gunzTarPerm extractEntry LICENSE
+1268 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1269 silly gunzTarPerm extractEntry index.js
+1270 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1271 silly gunzTarPerm extractEntry .jshintrc
+1272 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+1273 silly gunzTarPerm extractEntry test/test.js
+1274 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+1275 silly lockFile c4e2f8fb-ee-node-modules-keep-alive-agent tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee\node_modules\keep-alive-agent
+1276 silly lockFile c4e2f8fb-ee-node-modules-keep-alive-agent tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee\node_modules\keep-alive-agent
+1277 silly lockFile c1338631-ep-alive-agent-0-0-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1278 silly lockFile c1338631-ep-alive-agent-0-0-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\keep-alive-agent\0.0.1\package.tgz
+1279 info preinstall keep-alive-agent@0.0.1
+1280 verbose readDependencies using package.json deps
+1281 verbose readDependencies using package.json deps
+1282 silly resolved []
+1283 verbose about to build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee\node_modules\keep-alive-agent
+1284 info build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee\node_modules\keep-alive-agent
+1285 verbose linkStuff [ false,
+1285 verbose linkStuff   false,
+1285 verbose linkStuff   false,
+1285 verbose linkStuff   'D:\\Repos\\Git\\api.brasil.io\\educacao\\src\\node_modules\\riak-js\\node_modules\\poolee\\node_modules' ]
+1286 info linkStuff keep-alive-agent@0.0.1
+1287 verbose linkBins keep-alive-agent@0.0.1
+1288 verbose linkMans keep-alive-agent@0.0.1
+1289 verbose rebuildBundles keep-alive-agent@0.0.1
+1290 info install keep-alive-agent@0.0.1
+1291 info postinstall keep-alive-agent@0.0.1
+1292 verbose about to build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee
+1293 info build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\poolee
+1294 verbose linkStuff [ false,
+1294 verbose linkStuff   false,
+1294 verbose linkStuff   false,
+1294 verbose linkStuff   'D:\\Repos\\Git\\api.brasil.io\\educacao\\src\\node_modules\\riak-js\\node_modules' ]
+1295 info linkStuff poolee@0.4.11
+1296 verbose linkBins poolee@0.4.11
+1297 verbose linkMans poolee@0.4.11
+1298 verbose rebuildBundles poolee@0.4.11
+1299 verbose rebuildBundles [ 'keep-alive-agent' ]
+1300 info install poolee@0.4.11
+1301 info postinstall poolee@0.4.11
+1302 http 200 https://github.com/lautis/wtf8/tarball/master
+1303 verbose tar unpack C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\tmp.tgz
+1304 silly lockFile bc1221ed-30976-0-8049998474307358-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\package
+1305 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\bc1221ed-30976-0-8049998474307358-package.lock
+1306 silly lockFile f36d0bd3-30976-0-8049998474307358-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\tmp.tgz
+1307 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\tmp.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\f36d0bd3-30976-0-8049998474307358-tmp-tgz.lock
+1308 silly gunzTarPerm modes [ '755', '644' ]
+1309 silly gunzTarPerm extractEntry
+1310 silly gunzTarPerm modified mode [ '', 509, 493 ]
+1311 silly gunzTarPerm extractEntry .gitignore
+1312 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+1313 silly gunzTarPerm extractEntry .travis.yml
+1314 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+1315 silly gunzTarPerm extractEntry LICENSE
+1316 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+1317 silly gunzTarPerm extractEntry README.md
+1318 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+1319 silly gunzTarPerm extractEntry benchmark.js
+1320 silly gunzTarPerm modified mode [ 'benchmark.js', 436, 420 ]
+1321 silly gunzTarPerm extractEntry binding.gyp
+1322 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 420 ]
+1323 silly gunzTarPerm extractEntry package.json
+1324 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+1325 silly gunzTarPerm extractEntry test/
+1326 silly gunzTarPerm modified mode [ 'test/', 509, 493 ]
+1327 silly gunzTarPerm extractEntry test/common.js
+1328 silly gunzTarPerm modified mode [ 'test/common.js', 436, 420 ]
+1329 silly gunzTarPerm extractEntry test/decoder.js
+1330 silly gunzTarPerm modified mode [ 'test/decoder.js', 436, 420 ]
+1331 silly gunzTarPerm extractEntry test/encoder.js
+1332 silly gunzTarPerm modified mode [ 'test/encoder.js', 436, 420 ]
+1333 silly gunzTarPerm extractEntry test/index.js
+1334 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+1335 silly gunzTarPerm extractEntry wtf8.cc
+1336 silly gunzTarPerm modified mode [ 'wtf8.cc', 436, 420 ]
+1337 silly gunzTarPerm extractEntry wtf8.js
+1338 silly gunzTarPerm modified mode [ 'wtf8.js', 436, 420 ]
+1339 silly lockFile bc1221ed-30976-0-8049998474307358-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\package
+1340 silly lockFile bc1221ed-30976-0-8049998474307358-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\package
+1341 silly lockFile f36d0bd3-30976-0-8049998474307358-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\tmp.tgz
+1342 silly lockFile f36d0bd3-30976-0-8049998474307358-tmp-tgz tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\tmp.tgz
+1343 verbose tar pack [ 'C:\\Users\\GustavoRPS\\AppData\\Roaming\\npm-cache\\wtf8\\0.1.1\\package.tgz',
+1343 verbose tar pack   'C:\\Users\\GUSTAV~1\\AppData\\Local\\Temp\\npm-5776-KTuV3gF5\\1400386930976-0.8049998474307358\\package' ]
+1344 verbose tarball C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1345 verbose folder C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\package
+1346 silly lockFile bc1221ed-30976-0-8049998474307358-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\package
+1347 verbose lock tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\bc1221ed-30976-0-8049998474307358-package.lock
+1348 silly lockFile 5b731710-npm-cache-wtf8-0-1-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1349 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\5b731710-npm-cache-wtf8-0-1-1-package-tgz.lock
+1350 silly lockFile bc1221ed-30976-0-8049998474307358-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\package
+1351 silly lockFile bc1221ed-30976-0-8049998474307358-package tar://C:\Users\GUSTAV~1\AppData\Local\Temp\npm-5776-KTuV3gF5\1400386930976-0.8049998474307358\package
+1352 silly lockFile 5b731710-npm-cache-wtf8-0-1-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1353 silly lockFile 5b731710-npm-cache-wtf8-0-1-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1354 silly lockFile bcc51eef-ing-npm-cache-wtf8-0-1-1-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package
+1355 verbose lock C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\bcc51eef-ing-npm-cache-wtf8-0-1-1-package.lock
+1356 silly lockFile bcc51eef-ing-npm-cache-wtf8-0-1-1-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package
+1357 silly lockFile bcc51eef-ing-npm-cache-wtf8-0-1-1-package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package
+1358 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1359 silly lockFile 580c69e2-ing-npm-cache-wtf8-0-1-1-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package
+1360 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package C:\Users\GustavoRPS\AppData\Roaming\npm-cache\580c69e2-ing-npm-cache-wtf8-0-1-1-package.lock
+1361 silly lockFile 5b731710-npm-cache-wtf8-0-1-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1362 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\5b731710-npm-cache-wtf8-0-1-1-package-tgz.lock
+1363 silly gunzTarPerm modes [ '755', '644' ]
+1364 silly gunzTarPerm extractEntry package.json
+1365 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1366 silly gunzTarPerm extractEntry .npmignore
+1367 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+1368 silly gunzTarPerm extractEntry README.md
+1369 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1370 silly gunzTarPerm extractEntry LICENSE
+1371 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1372 silly gunzTarPerm extractEntry benchmark.js
+1373 silly gunzTarPerm modified mode [ 'benchmark.js', 438, 420 ]
+1374 silly gunzTarPerm extractEntry wtf8.js
+1375 silly gunzTarPerm modified mode [ 'wtf8.js', 438, 420 ]
+1376 silly gunzTarPerm extractEntry .travis.yml
+1377 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+1378 silly gunzTarPerm extractEntry binding.gyp
+1379 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+1380 silly gunzTarPerm extractEntry test/common.js
+1381 silly gunzTarPerm modified mode [ 'test/common.js', 438, 420 ]
+1382 silly gunzTarPerm extractEntry test/decoder.js
+1383 silly gunzTarPerm modified mode [ 'test/decoder.js', 438, 420 ]
+1384 silly gunzTarPerm extractEntry test/encoder.js
+1385 silly gunzTarPerm modified mode [ 'test/encoder.js', 438, 420 ]
+1386 silly gunzTarPerm extractEntry test/index.js
+1387 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+1388 silly gunzTarPerm extractEntry wtf8.cc
+1389 silly gunzTarPerm modified mode [ 'wtf8.cc', 438, 420 ]
+1390 silly lockFile 580c69e2-ing-npm-cache-wtf8-0-1-1-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package
+1391 silly lockFile 580c69e2-ing-npm-cache-wtf8-0-1-1-package tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package
+1392 silly lockFile 5b731710-npm-cache-wtf8-0-1-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1393 silly lockFile 5b731710-npm-cache-wtf8-0-1-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1394 verbose chmod C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz 644
+1395 silly chown skipping for windows C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1396 silly lockFile 11e1b5d1-b-com-lautis-wtf8-tarball-master https://github.com/lautis/wtf8/tarball/master
+1397 silly lockFile 11e1b5d1-b-com-lautis-wtf8-tarball-master https://github.com/lautis/wtf8/tarball/master
+1398 silly resolved [ { name: 'wtf8',
+1398 silly resolved     description: 'A Node.JS UTF-8 encoder and decoder which is able to handle characters outside Basic Multilingual Plane',
+1398 silly resolved     keywords: [ 'utf8', 'unicode' ],
+1398 silly resolved     version: '0.1.1',
+1398 silly resolved     homepage: 'http://github.com/lautis/wtf8',
+1398 silly resolved     author: { name: 'Ville Lautanala' },
+1398 silly resolved     main: './wtf8.js',
+1398 silly resolved     directories: { lib: '.' },
+1398 silly resolved     scripts:
+1398 silly resolved      { test: 'node test/index.js',
+1398 silly resolved        preinstall: 'node-gyp configure build' },
+1398 silly resolved     repository: { type: 'git', url: 'http://github.com/lautis/wtf8.git' },
+1398 silly resolved     devDependencies: { benchmark: '0.3.0', microtime: '0.2.0' },
+1398 silly resolved     license: 'MIT',
+1398 silly resolved     engines: { node: '*' },
+1398 silly resolved     readme: '# WTF8\n\nA UTF-8 decoder and encoder which can handle characters outside Basic Multilingual Plane for node.js. It\'s also reasonably fast.\n\n## Why?\n\nV8 doesn\'t like 4-byte UTF-8 characters. 😞\n\n## Methods\n\n### .decode(buffer)\n\nDecode buffer containing UTF-8 data to JS string.\n\n    var utf8 = require(\'wtf8\');\n    utf8.decode(new Buffer([0x68, 0x65, 0x6c, 0x6c, 0x6f]));\n    // => \'hello\'\n\n### .encode(string)\n\nEncode strings to buffer.\n\n    var utf8 = require(\'wtf8\');\n    utf8.encode(\'hello\');\n    // => <SlowBuffer 68 65 6c 6c 6f>\n\n## TODO\n\n* stream piping\n',
+1398 silly resolved     readmeFilename: 'README.md',
+1398 silly resolved     bugs: { url: 'https://github.com/lautis/wtf8/issues' },
+1398 silly resolved     _id: 'wtf8@0.1.1',
+1398 silly resolved     dist: { shasum: '2874aea5981d36df356f3e23c7cea279958d6acb' },
+1398 silly resolved     _from: 'https://github.com/lautis/wtf8/tarball/master',
+1398 silly resolved     _resolved: 'https://github.com/lautis/wtf8/tarball/master' } ]
+1399 info install wtf8@0.1.1 into D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js
+1400 info installOne wtf8@0.1.1
+1401 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js\node_modules\wtf8 unbuild
+1402 verbose tar unpack C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1403 silly lockFile a8b91bf8-es-protobuf-js-node-modules-wtf8 tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js\node_modules\wtf8
+1404 verbose lock tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js\node_modules\wtf8 C:\Users\GustavoRPS\AppData\Roaming\npm-cache\a8b91bf8-es-protobuf-js-node-modules-wtf8.lock
+1405 silly lockFile 5b731710-npm-cache-wtf8-0-1-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1406 verbose lock tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz C:\Users\GustavoRPS\AppData\Roaming\npm-cache\5b731710-npm-cache-wtf8-0-1-1-package-tgz.lock
+1407 silly gunzTarPerm modes [ '755', '644' ]
+1408 silly gunzTarPerm extractEntry package.json
+1409 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1410 silly gunzTarPerm extractEntry .npmignore
+1411 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+1412 silly gunzTarPerm extractEntry README.md
+1413 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1414 silly gunzTarPerm extractEntry LICENSE
+1415 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1416 silly gunzTarPerm extractEntry benchmark.js
+1417 silly gunzTarPerm modified mode [ 'benchmark.js', 438, 420 ]
+1418 silly gunzTarPerm extractEntry wtf8.js
+1419 silly gunzTarPerm modified mode [ 'wtf8.js', 438, 420 ]
+1420 silly gunzTarPerm extractEntry .travis.yml
+1421 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+1422 silly gunzTarPerm extractEntry binding.gyp
+1423 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+1424 silly gunzTarPerm extractEntry test/common.js
+1425 silly gunzTarPerm modified mode [ 'test/common.js', 438, 420 ]
+1426 silly gunzTarPerm extractEntry test/decoder.js
+1427 silly gunzTarPerm modified mode [ 'test/decoder.js', 438, 420 ]
+1428 silly gunzTarPerm extractEntry test/encoder.js
+1429 silly gunzTarPerm modified mode [ 'test/encoder.js', 438, 420 ]
+1430 silly gunzTarPerm extractEntry test/index.js
+1431 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+1432 silly gunzTarPerm extractEntry wtf8.cc
+1433 silly gunzTarPerm modified mode [ 'wtf8.cc', 438, 420 ]
+1434 silly lockFile a8b91bf8-es-protobuf-js-node-modules-wtf8 tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js\node_modules\wtf8
+1435 silly lockFile a8b91bf8-es-protobuf-js-node-modules-wtf8 tar://D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js\node_modules\wtf8
+1436 silly lockFile 5b731710-npm-cache-wtf8-0-1-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1437 silly lockFile 5b731710-npm-cache-wtf8-0-1-1-package-tgz tar://C:\Users\GustavoRPS\AppData\Roaming\npm-cache\wtf8\0.1.1\package.tgz
+1438 info preinstall wtf8@0.1.1
+1439 verbose unsafe-perm in lifecycle true
+1440 info wtf8@0.1.1 Failed to exec preinstall script
+1441 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js\node_modules\wtf8 unbuild
+1442 info preuninstall wtf8@0.1.1
+1443 info uninstall wtf8@0.1.1
+1444 verbose false,D:\Repos\Git\api.brasil.io\educacao\src\node_modules,D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js\node_modules unbuild wtf8@0.1.1
+1445 info postuninstall wtf8@0.1.1
+1446 verbose about to build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js
+1447 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules\protobuf.js unbuild
+1448 info preuninstall protobuf.js@0.0.17
+1449 info uninstall protobuf.js@0.0.17
+1450 verbose false,D:\Repos\Git\api.brasil.io\educacao\src\node_modules,D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js\node_modules unbuild protobuf.js@0.0.17
+1451 info postuninstall protobuf.js@0.0.17
+1452 verbose about to build D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js
+1453 info D:\Repos\Git\api.brasil.io\educacao\src\node_modules\riak-js unbuild
+1454 info preuninstall riak-js@0.10.2
+1455 info uninstall riak-js@0.10.2
+1456 verbose true,D:\Repos\Git\api.brasil.io\educacao\src\node_modules,D:\Repos\Git\api.brasil.io\educacao\src\node_modules unbuild riak-js@0.10.2
+1457 info postuninstall riak-js@0.10.2
+1458 error wtf8@0.1.1 preinstall: `node-gyp configure build`
+1458 error Exit status 1
+1459 error Failed at the wtf8@0.1.1 preinstall script.
+1459 error This is most likely a problem with the wtf8 package,
+1459 error not with npm itself.
+1459 error Tell the author that this fails on your system:
+1459 error     node-gyp configure build
+1459 error You can get their info via:
+1459 error     npm owner ls wtf8
+1459 error There is likely additional logging output above.
+1460 error System Windows_NT 6.2.9200
+1461 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "riak-js"
+1462 error cwd D:\Repos\Git\api.brasil.io\educacao\src
+1463 error node -v v0.10.26
+1464 error npm -v 1.4.3
+1465 error code ELIFECYCLE
+1466 verbose exit [ 1, true ]
