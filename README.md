@@ -17,7 +17,7 @@
    
      * Paramêtros
       * uf=[sigla]
-      * &codigo_municipio=[cod_municipio]
+      * codigo_municipio=[cod_municipio]
       * rede=[municipal|estadual|federal|publica]
    
      * Exemplo
@@ -30,7 +30,7 @@
    * /ideb.{json|csv}
   
      * Paramêtros
-      * ?uf=[sigla]
+      * uf=[sigla]
       * rede=[municipal|estadual|federal|publica]
   
      * Exemplo
