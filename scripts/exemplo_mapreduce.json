@@ -1,0 +1,29 @@
+{
+   "inputs": [
+
+    ["test_leao","11047739"],
+    ["test_leao","11043709"],
+    ["test_leao","11040629"],
+    ["test_leao","11037512"],
+    ["test_leao","11033576"],
+    ["test_leao","11033371"],
+    ["test_leao","11026812"],
+    ["test_leao","11026235"],
+    ["test_leao","11025310"],
+    ["test_leao","11022388"],
+    ["test_leao","11022221"]
+
+
+  ],
+  "query": [{
+       "map": {
+            "language": "javascript",
+            "source": "function(value){
+            		return Riak.mapValuesJson(value);
+				}",
+        	"keep": true
+       		}
+   		}
+   ]
+}
+

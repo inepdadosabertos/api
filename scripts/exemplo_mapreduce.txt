@@ -1,0 +1,10 @@
+curl -XPOST http://localhost:8098/mapred -H 'Content-Type: application/json' -d @exemplo_mapreduce.json
+
+
+
+
+
+http://127.0.0.1:8098/buckets/ideb_escola/index/rede_bin/municipal/
+http://127.0.0.1:8098/buckets/ideb_municipio/index/uf_bin/MG/
+
+
